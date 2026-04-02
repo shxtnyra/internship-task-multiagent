@@ -1,0 +1,14 @@
+2026-04-02 16:30:32,156 - MultiAgentSystem - INFO - --- Запуск генерации отчета для роли: ML Engineer ---
+2026-04-02 16:30:32,156 - MultiAgentSystem.MarketAnalyst - INFO - Запуск анализа для: ML Engineer
+2026-04-02 16:30:42,291 - httpx - INFO - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+2026-04-02 16:30:42,380 - MultiAgentSystem.MarketAnalyst - INFO - Skill_map успешно сформирован и проверен
+2026-04-02 16:30:42,380 - MultiAgentSystem.SalaryEstimator - INFO - Начало оценки зарплат и трендов
+2026-04-02 16:30:46,631 - httpx - INFO - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+2026-04-02 16:30:46,635 - MultiAgentSystem.SalaryEstimator - INFO - Зарплатная таблица и тренды успешно получены и проверены
+2026-04-02 16:30:46,635 - MultiAgentSystem.CareerAdvisor - INFO - Формирование плана обучения
+2026-04-02 16:30:56,986 - httpx - INFO - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+2026-04-02 16:30:57,005 - MultiAgentSystem.CareerAdvisor - INFO - Карьерный план успешно создан и валидирован
+2026-04-02 16:30:57,005 - MultiAgentSystem.QualityVerifier - INFO - Запуск технического аудита отчета
+2026-04-02 16:31:05,193 - httpx - INFO - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+2026-04-02 16:31:05,196 - MultiAgentSystem.QualityVerifier - INFO - Аудит завершен. Score: 85/100. Warnings: 4
+2026-04-02 16:31:05,196 - MultiAgentSystem - INFO - Сохранение отчёта в ./other_example/gpt_oss_120b/ML Engineer

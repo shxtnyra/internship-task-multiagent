@@ -1,0 +1,272 @@
+{
+    "skill_map": {
+        "languages": [
+            {
+                "name": "Python",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "SQL",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "C++",
+                "importance": "important",
+                "trend": "stable"
+            }
+        ],
+        "frameworks": [
+            {
+                "name": "PyTorch",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "Scikit-learn",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Hugging Face Transformers",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "TensorFlow",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "LangChain",
+                "importance": "nice-to-have",
+                "trend": "growing"
+            },
+            {
+                "name": "XGBoost/LightGBM",
+                "importance": "important",
+                "trend": "stable"
+            }
+        ],
+        "infrastructure": [
+            {
+                "name": "Docker",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "MLflow",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "Kubernetes (K8s)",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "DVC (Data Version Control)",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Airflow",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Vector Databases (Pinecone/Milvus)",
+                "importance": "nice-to-have",
+                "trend": "growing"
+            },
+            {
+                "name": "AWS/GCP/Azure ML Services",
+                "importance": "important",
+                "trend": "stable"
+            }
+        ],
+        "soft_skills": [
+            {
+                "name": "Analytical Thinking",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "ML System Design",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "Communication",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Agile/Scrum",
+                "importance": "important",
+                "trend": "stable"
+            }
+        ]
+    },
+    "salary_table": {
+        "Junior": {
+            "Moscow": {
+                "min": 140,
+                "median": 180,
+                "max": 240
+            },
+            "Regions": {
+                "min": 90,
+                "median": 130,
+                "max": 170
+            },
+            "Remote_USD": {
+                "min": 1800,
+                "median": 2500,
+                "max": 3500
+            }
+        },
+        "Middle": {
+            "Moscow": {
+                "min": 300,
+                "median": 420,
+                "max": 550
+            },
+            "Regions": {
+                "min": 200,
+                "median": 280,
+                "max": 380
+            },
+            "Remote_USD": {
+                "min": 4500,
+                "median": 6000,
+                "max": 8500
+            }
+        },
+        "Senior": {
+            "Moscow": {
+                "min": 550,
+                "median": 700,
+                "max": 950
+            },
+            "Regions": {
+                "min": 380,
+                "median": 500,
+                "max": 650
+            },
+            "Remote_USD": {
+                "min": 8000,
+                "median": 10000,
+                "max": 14000
+            }
+        },
+        "Lead": {
+            "Moscow": {
+                "min": 750,
+                "median": 950,
+                "max": 1400
+            },
+            "Regions": {
+                "min": 550,
+                "median": 750,
+                "max": 1000
+            },
+            "Remote_USD": {
+                "min": 11000,
+                "median": 14000,
+                "max": 20000
+            }
+        }
+    },
+    "market_trend": {
+        "status": "growing",
+        "reason": "Бурное развитие LLM и Generative AI в сочетании с необходимостью внедрения MLOps-практик и высокопроизводительного кода на C++ создает дефицит квалифицированных ML-инженеров."
+    },
+    "top_employers": [
+        "Yandex",
+        "Sber AI",
+        "T-Bank",
+        "VK",
+        "Ozon"
+    ],
+    "learning_path": {
+        "Foundation": {
+            "topics": [
+                "Advanced PyTorch: Custom Layers, Hooks and Optimization",
+                "MLOps Essentials: Experiment Tracking with MLflow",
+                "Containerization for ML: Docker and Multi-stage builds",
+                "SQL for Data Engineering: Window functions and Query Optimization"
+            ],
+            "resources": [
+                "Книга 'Deep Learning with PyTorch' (Eli Stevens, Luca Antiga)",
+                "Документация MLflow: Tracking and Projects",
+                "Курс 'Docker for Data Science' на Udemy"
+            ],
+            "milestone": "Развернутый локальный сервер MLflow с залогированными экспериментами обучения модели на PyTorch, упакованной в Docker-контейнер."
+        },
+        "Practice": {
+            "topics": [
+                "LLM Fine-tuning: Hugging Face Transformers and PEFT/LoRA",
+                "Data Versioning: DVC (Data Version Control) integration",
+                "Orchestration: Building DAGs in Apache Airflow",
+                "Vector Databases: Pinecone and Milvus for RAG systems"
+            ],
+            "resources": [
+                "Hugging Face NLP Course (huggingface.co/learn/nlp-course)",
+                "Документация DVC: Get Started guide",
+                "Книга 'Data Pipelines with Apache Airflow' (Bas P. Harenslak)"
+            ],
+            "milestone": "Автоматизированный пайплайн в Airflow, который версионирует данные через DVC и дообучает модель Hugging Face при обновлении датасета."
+        },
+        "Portfolio": {
+            "topics": [
+                "ML System Design: Scalability, Latency, and Reliability",
+                "High-Performance ML: C++ Inference with ONNX Runtime",
+                "Deployment: Kubernetes (K8s) and Helm charts for ML",
+                "Monitoring: Prometheus and Grafana for Model Drift"
+            ],
+            "resources": [
+                "Книга 'Designing Machine Learning Systems' (Chip Huyen)",
+                "Курс 'Machine Learning Systems Design' от Stanford (CS 329S)",
+                "Документация ONNX Runtime: C++ API"
+            ],
+            "milestone": "Завершенный и задеплоенный проект в Kubernetes с мониторингом и оптимизированным C++ ядром для инференса."
+        }
+    },
+    "gap_analysis": {
+        "quick_wins": [
+            "Освоение MLflow для трекинга гиперпараметров",
+            "Контейнеризация существующих скриптов через Docker",
+            "Изучение LangChain для быстрой сборки прототипов с LLM",
+            "Оптимизация SQL-запросов для подготовки признаков (features)"
+        ],
+        "long_term": [
+            "Глубокое изучение C++ для написания кастомных операторов и высоконагруженного инференса",
+            "Проектирование архитектур ML-систем (ML System Design)",
+            "Экспертиза в Kubernetes для масштабирования ML-сервисов",
+            "Специализация в области Generative AI и дообучения LLM"
+        ]
+    },
+    "portfolio_project": {
+        "name": "OmniSearch: High-Performance RAG System with C++ Inference & MLOps",
+        "description": "Полноценная система поиска и ответов на вопросы (RAG) по технической документации. Система включает в себя: 1) Пайплайн обработки данных на Airflow. 2) Векторное хранилище Milvus для семантического поиска. 3) Fine-tuned модель Llama-3 через Hugging Face. 4) Высокопроизводительный сервис инференса на C++ с использованием ONNX Runtime для минимизации задержек. 5) Полный цикл MLOps: трекинг в MLflow, версионирование данных в DVC и деплой в K8s.",
+        "skills_demonstrated": [
+            "PyTorch & Hugging Face (Fine-tuning)",
+            "C++ (High-performance inference)",
+            "MLOps (MLflow, DVC, Airflow)",
+            "Infrastructure (Docker, Kubernetes, Milvus)",
+            "ML System Design (Scalable RAG architecture)"
+        ]
+    },
+    "quality_score": 88,
+    "is_consistent": true,
+    "warnings": [
+        "Избыточный объем портфолио-проекта: реализация C++ инференса, K8s-деплоя и LLM fine-tuning в рамках одного проекта является крайне трудозатратной и маловероятной для индивидуального разработчика.",
+        "Логическое противоречие в приоритизации C++: язык указан как 'important' в skill_map, но появляется только на финальном этапе learning_path (Portfolio), что создает риск нехватки фундаментальных знаний при переходе к высокопроизводительному инференсу.",
+        "Несоответствие статуса LangChain: в skill_map технология помечена как 'nice-to-have', однако в gap_analysis она вынесена в 'quick wins', что завышает ее реальную значимость для инженера уровня Senior.",
+        "Агрессивные зарплатные ожидания: верхняя граница для Lead в 1.4 млн руб. в месяц для Москвы 2026 года является экстремальной и достижимой только в узком сегменте AI-лабораторий (Yandex Research, Sber AI), а не по рынку в целом."
+    ],
+    "rationale_quality_score": "Отчет демонстрирует высокую техническую грамотность и актуальность стека (PEFT, ONNX, Vector DB). Галлюцинаций в названиях библиотек и ресурсов не обнаружено. Однако оценка снижена из-за 'проклятия перфекциониста': предложенный план обучения и финальный проект OmniSearch перегружены. Попытка объединить глубокий MLOps (DVC, Airflow, K8s) с низкоуровневой оптимизацией на C++ и дообучением LLM в одном человеке/проекте создает нереалистичный профиль. Также выявлен дисбаланс между важностью C++ в матрице навыков и его поздним появлением в плане обучения.",
+    "metadata": "2026-04-02T10:59:15.460039"
+}

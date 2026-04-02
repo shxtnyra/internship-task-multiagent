@@ -1,0 +1,379 @@
+{
+    "skill_map": {
+        "languages": [
+            {
+                "name": "Python",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "SQL",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "R",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            },
+            {
+                "name": "Java",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "C++",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            },
+            {
+                "name": "Bash",
+                "importance": "important",
+                "trend": "stable"
+            }
+        ],
+        "frameworks": [
+            {
+                "name": "TensorFlow",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "PyTorch",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "Scikit-learn",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Keras",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "XGBoost",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Pandas",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "NumPy",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Matplotlib",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            },
+            {
+                "name": "Seaborn",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            }
+        ],
+        "infrastructure": [
+            {
+                "name": "Docker",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "Kubernetes",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "Git",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "GitHub Actions",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "Jenkins",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "AWS SageMaker",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "Google Cloud AI Platform",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "Azure Machine Learning",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "MLflow",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "DVC (Data Version Control)",
+                "importance": "nice-to-have",
+                "trend": "growing"
+            },
+            {
+                "name": "Apache Airflow",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Apache Spark",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Kafka",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            },
+            {
+                "name": "Prometheus",
+                "importance": "nice-to-have",
+                "trend": "growing"
+            },
+            {
+                "name": "Grafana",
+                "importance": "nice-to-have",
+                "trend": "growing"
+            }
+        ],
+        "soft_skills": [
+            {
+                "name": "Problem Solving",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Communication",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Teamwork",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Scrum / Agile Methodologies",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Research Mindset",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Ethical AI Awareness",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "Project Management",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            }
+        ]
+    },
+    "salary_table": {
+        "Junior": {
+            "Moscow": {
+                "min": 150,
+                "median": 200,
+                "max": 250
+            },
+            "Regions": {
+                "min": 100,
+                "median": 130,
+                "max": 180
+            },
+            "Remote_USD": {
+                "min": 30,
+                "median": 38,
+                "max": 45
+            }
+        },
+        "Middle": {
+            "Moscow": {
+                "min": 250,
+                "median": 320,
+                "max": 400
+            },
+            "Regions": {
+                "min": 180,
+                "median": 240,
+                "max": 300
+            },
+            "Remote_USD": {
+                "min": 45,
+                "median": 58,
+                "max": 70
+            }
+        },
+        "Senior": {
+            "Moscow": {
+                "min": 400,
+                "median": 520,
+                "max": 650
+            },
+            "Regions": {
+                "min": 300,
+                "median": 400,
+                "max": 500
+            },
+            "Remote_USD": {
+                "min": 70,
+                "median": 90,
+                "max": 110
+            }
+        },
+        "Lead": {
+            "Moscow": {
+                "min": 600,
+                "median": 750,
+                "max": 900
+            },
+            "Regions": {
+                "min": 450,
+                "median": 580,
+                "max": 700
+            },
+            "Remote_USD": {
+                "min": 100,
+                "median": 125,
+                "max": 150
+            }
+        }
+    },
+    "market_trend": {
+        "status": "growing",
+        "reason": "Спрос на специалистов в области машинного обучения и AI растёт из‑за масштабного внедрения облачных AI‑платформ и увеличения инвестиций в аналитические решения."
+    },
+    "top_employers": [
+        "Yandex",
+        "Сбербанк",
+        "Тинькофф",
+        "VK (Mail.ru Group)",
+        "Ozon"
+    ],
+    "learning_path": {
+        "Foundation": {
+            "topics": [
+                "Python fundamentals and OOP",
+                "SQL for data extraction and manipulation",
+                "Version control with Git",
+                "Container basics with Docker",
+                "Data manipulation with Pandas",
+                "Numerical computing with NumPy",
+                "Основы машинного обучения: линейная регрессия, классификация"
+            ],
+            "resources": [
+                "Python Crash Course, Eric Matthes (книга)",
+                "SQL for Data Science – Coursera (курс)",
+                "Git Handbook – официальная документация GitHub (документация)",
+                "Docker Essentials: Hands‑On Introduction – IBM на Coursera (курс)",
+                "Pandas Documentation – pandas.pydata.org (документация)",
+                "NumPy Quickstart Tutorial – numpy.org (документация)"
+            ],
+            "milestone": "Создан репозиторий с Jupyter‑ноутбуком, в котором выполнена загрузка открытого датасета, предобработка данных с Pandas/NumPy, обучение простой модели (линейная регрессия) с использованием Scikit‑learn, а также Docker‑образ, позволяющий запускать ноутбук в изолированном окружении."
+        },
+        "Practice": {
+            "topics": [
+                "Модели машинного обучения с Scikit‑learn",
+                "Deep Learning с TensorFlow (Keras) и PyTorch",
+                "CI/CD для ML‑проектов с GitHub Actions",
+                "Экспериментальный трекинг с MLflow",
+                "Контейнеризация и оркестрация: Docker Compose + базовый Kubernetes",
+                "Развёртывание модели в AWS SageMaker"
+            ],
+            "resources": [
+                "Hands‑On Machine Learning with Scikit‑Learn, Keras & TensorFlow – Aurélien Géron (книга)",
+                "Deep Learning with PyTorch: A 60‑Minute Blitz – официальная документация PyTorch (документация)",
+                "AWS SageMaker Studio Lab – официальные учебные материалы (документация/курсы)",
+                "GitHub Actions for Machine Learning – Coursera (курс)",
+                "MLflow Tracking Tutorial – databricks.com (руководство)",
+                "Kubernetes Basics – курс от CNCF на edX (курс)"
+            ],
+            "milestone": "Разработан и задокументирован проект классификации изображений (CIFAR‑10) на PyTorch, упакован в Docker‑контейнер, настроен CI‑pipeline в GitHub Actions, эксперименты фиксируются в MLflow, модель деплоится в SageMaker и доступна через REST‑API."
+        },
+        "Portfolio": {
+            "topics": [
+                "Полный MLOps цикл: сбор данных, ETL, обучение, валидация, деплой, мониторинг",
+                "Оркестрация пайплайнов с Apache Airflow",
+                "Продвинутая работа с облачными AI‑платформами (Azure ML или Google Cloud AI Platform)",
+                "Мониторинг метрик модели с Prometheus + визуализация в Grafana",
+                "Документация и презентация проекта для технической аудитории"
+            ],
+            "resources": [
+                "MLOps Engineering at Scale – Coursera (специализация)",
+                "Apache Airflow Documentation – airflow.apache.org (документация)",
+                "Azure Machine Learning Documentation – docs.microsoft.com/azure/machine-learning (документация)",
+                "Prometheus & Grafana – официальные гайды (документация)",
+                "Building End‑to‑End ML Pipelines on GCP – Coursera (курс)"
+            ],
+            "milestone": "Создан и задеплоен в облаке (Azure ML) end‑to‑end проект предсказания оттока клиентов банка: данные собираются из PostgreSQL, ETL реализован в Airflow, модель Gradient Boosting (XGBoost) обучается в Docker‑контейнере, результаты сохраняются в MLflow, сервис предсказаний обслуживается через Azure Container Instances, метрики качества и производительности собираются Prometheus и отображаются в Grafana. Всё оформлено в публичном репозитории с README, CI/CD и инструкциями."
+        }
+    },
+    "gap_analysis": {
+        "quick_wins": [
+            "Базовый уровень Python и работа с библиотеками Pandas/NumPy",
+            "SQL‑запросы для извлечения и агрегации данных",
+            "Git и базовый CI с GitHub Actions",
+            "Docker‑контейнеризация простых приложений",
+            "Scikit‑learn для классических моделей",
+            "Основы облачных сервисов SageMaker/Azure ML (запуск готовых ноутбуков)"
+        ],
+        "long_term": [
+            "Глубокое владение TensorFlow и PyTorch, построение кастомных нейронных сетей",
+            "MLOps инструменты: MLflow, DVC, Kubernetes, Helm",
+            "Оркестрация данных и пайплайнов с Apache Airflow",
+            "Развёртывание и масштабирование моделей в облачных AI‑платформах (AWS, GCP, Azure)",
+            "Мониторинг и управление жизненным циклом моделей (Prometheus, Grafana, модельный drift)",
+            "Продвинутые soft‑skills: Agile/Scrum, исследовательский подход, этика AI, управление проектами"
+        ]
+    },
+    "portfolio_project": {
+        "name": "Predictive Customer Churn Platform for a Banking Service",
+        "description": "Разработана полностью автоматизированная платформа, предсказывающая отток клиентов банковского продукта. Данные (транзакции, демография, взаимодействия) хранятся в PostgreSQL. ETL‑процессы реализованы в Apache Airflow, где каждый DAG собирает, очищает и готовит фичи. Обучение модели Gradient Boosting (XGBoost) происходит в Docker‑контейнере, а эксперименты фиксируются в MLflow (параметры, метрики, артефакты). После валидации модель деплоится в Azure Machine Learning как веб‑сервис, доступный через REST‑API. Для мониторинга качества и производительности используется Prometheus (сбор метрик latency, error rate, data drift) и Grafana (дашборд в реальном времени). Весь код размещён в публичном GitHub‑репозитории, настроен CI/CD с GitHub Actions, включающий тесты, статический анализ кода и автоматический деплой в Azure при мерже в main. Проект сопровождается подробной документацией, README, архитектурными схемами и инструкциями по воспроизводимости.",
+        "skills_demonstrated": [
+            "Python (Pandas, NumPy, XGBoost)",
+            "SQL (PostgreSQL)",
+            "Docker и контейнеризация",
+            "Git и CI/CD (GitHub Actions)",
+            "MLOps (MLflow, DVC basics)",
+            "Apache Airflow (ETL‑оркестрация)",
+            "Облачные AI‑платформы (Azure Machine Learning)",
+            "Мониторинг (Prometheus, Grafana)",
+            "Soft skills: проектное управление, Agile, коммуникация, этика AI"
+        ]
+    },
+    "quality_score": 85,
+    "is_consistent": false,
+    "warnings": [
+        "В skill_map указаны языки Java, C++ и R, но в learning_path (Foundation, Practice, Portfolio) они полностью отсутствуют – несоответствие стека навыков и плана обучения.",
+        "Soft‑skills включают Scrum/Agile, однако в learning_path нет явных модулей или ресурсов, посвящённых этим методологиям.",
+        "В salary_table не указана единица измерения (рубли vs USD) для каждой категории, что создаёт неоднозначность при сравнении зарплатных вилок.",
+        "Remote‑зарплаты для Junior (30‑45 k USD) выглядят ниже рыночных ожиданий 2026 года для специалистов с требуемым стеком, что может быть недооценкой."
+    ],
+    "rationale_quality_score": "Отчёт в целом логически построен: перечислены актуальные технологии, инфраструктурные инструменты и ресурсы, все названия существуют. Однако наблюдаются несоответствия между заявленным набором навыков (skill_map) и обучающим планом – ключевые языки (Java, C++, R) не покрыты, а важные soft‑skills (Scrum/Agile) не представлены в модулях обучения. Это снижает целостность отчёта. Зарплатные данные реалистичны по абсолютным величинам, но отсутствие чёткой метки единиц и потенциально заниженные удалённые вилки для Junior создают неопределённость. С учётом выявленных проблем итоговая оценка 85 из 100, а отчёт считается непоследовательным (is_consistent = false).",
+    "metadata": "2026-04-02T16:31:05.197300"
+}

@@ -1,0 +1,14 @@
+2026-04-02 10:58:02,349 - MultiAgentSystem - INFO - --- Запуск генерации отчета для роли: ML Engineer ---
+2026-04-02 10:58:02,349 - MultiAgentSystem.MarketAnalyst - INFO - Запуск анализа для: ML Engineer
+2026-04-02 10:58:27,720 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 10:58:27,785 - MultiAgentSystem.MarketAnalyst - INFO - Skill_map успешно сформирован и проверен
+2026-04-02 10:58:27,785 - MultiAgentSystem.SalaryEstimator - INFO - Начало оценки зарплат и трендов
+2026-04-02 10:58:38,762 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 10:58:38,818 - MultiAgentSystem.SalaryEstimator - INFO - Зарплатная таблица и тренды успешно получены и проверены
+2026-04-02 10:58:38,818 - MultiAgentSystem.CareerAdvisor - INFO - Формирование плана обучения
+2026-04-02 10:58:49,218 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 10:58:49,274 - MultiAgentSystem.CareerAdvisor - INFO - Карьерный план успешно создан и валидирован
+2026-04-02 10:58:49,274 - MultiAgentSystem.QualityVerifier - INFO - Запуск технического аудита отчета
+2026-04-02 10:59:15,401 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 10:59:15,459 - MultiAgentSystem.QualityVerifier - INFO - Аудит завершен. Score: 88/100. Warnings: 4
+2026-04-02 10:59:15,459 - MultiAgentSystem - INFO - Сохранение отчёта в ./example/ML Engineer

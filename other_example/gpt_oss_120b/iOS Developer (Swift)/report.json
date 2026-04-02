@@ -1,0 +1,393 @@
+{
+    "skill_map": {
+        "languages": [
+            {
+                "name": "Swift",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "Objective‑C",
+                "importance": "important",
+                "trend": "declining"
+            },
+            {
+                "name": "C/C++",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            }
+        ],
+        "frameworks": [
+            {
+                "name": "UIKit",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "SwiftUI",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "Combine",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "Core Data",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Core Animation",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "MapKit",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            },
+            {
+                "name": "ARKit",
+                "importance": "nice-to-have",
+                "trend": "growing"
+            },
+            {
+                "name": "Alamofire",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "URLSession",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "XCTest",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Quick/Nimble",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            },
+            {
+                "name": "RxSwift",
+                "importance": "nice-to-have",
+                "trend": "declining"
+            },
+            {
+                "name": "CocoaPods",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Carthage",
+                "importance": "nice-to-have",
+                "trend": "declining"
+            },
+            {
+                "name": "Swift Package Manager",
+                "importance": "important",
+                "trend": "growing"
+            }
+        ],
+        "infrastructure": [
+            {
+                "name": "Git",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "GitHub Actions",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "Bitrise",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Fastlane",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Xcode Cloud",
+                "importance": "nice-to-have",
+                "trend": "growing"
+            },
+            {
+                "name": "TestFlight",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "App Store Connect",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Firebase",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "AWS Amplify",
+                "importance": "nice-to-have",
+                "trend": "growing"
+            },
+            {
+                "name": "Realm",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "SQLite",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            }
+        ],
+        "soft_skills": [
+            {
+                "name": "Agile / Scrum",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Teamwork",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Communication",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Problem solving",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Time management",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "UI/UX basics",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Code review practices",
+                "importance": "important",
+                "trend": "stable"
+            }
+        ]
+    },
+    "salary_table": {
+        "Junior": {
+            "Moscow": {
+                "min": 130,
+                "median": 150,
+                "max": 170
+            },
+            "Regions": {
+                "min": 80,
+                "median": 100,
+                "max": 120
+            },
+            "Remote_USD": {
+                "min": 35,
+                "median": 45,
+                "max": 55
+            }
+        },
+        "Middle": {
+            "Moscow": {
+                "min": 220,
+                "median": 260,
+                "max": 300
+            },
+            "Regions": {
+                "min": 150,
+                "median": 190,
+                "max": 230
+            },
+            "Remote_USD": {
+                "min": 70,
+                "median": 85,
+                "max": 100
+            }
+        },
+        "Senior": {
+            "Moscow": {
+                "min": 380,
+                "median": 440,
+                "max": 520
+            },
+            "Regions": {
+                "min": 260,
+                "median": 320,
+                "max": 380
+            },
+            "Remote_USD": {
+                "min": 115,
+                "median": 135,
+                "max": 160
+            }
+        },
+        "Lead": {
+            "Moscow": {
+                "min": 620,
+                "median": 720,
+                "max": 840
+            },
+            "Regions": {
+                "min": 420,
+                "median": 540,
+                "max": 660
+            },
+            "Remote_USD": {
+                "min": 170,
+                "median": 200,
+                "max": 240
+            }
+        }
+    },
+    "market_trend": {
+        "status": "growing",
+        "reason": "Высокий спрос на Swift, SwiftUI и Combine, а также рост мобильных приложений в финансовом и сервисном секторах России и за рубежом."
+    },
+    "top_employers": [
+        "Yandex",
+        "SberDevices",
+        "Tinkoff",
+        "Ozon",
+        "VK (Mail.ru Group)"
+    ],
+    "learning_path": {
+        "Foundation": {
+            "topics": [
+                "Swift language syntax, optionals, error handling",
+                "SwiftUI fundamentals: views, modifiers, layout system",
+                "Combine introductory concepts: publishers, subscribers",
+                "UIKit basics for legacy code understanding",
+                "Git basics: branching, merging, pull requests",
+                "Xcode workspace, debugging, Instruments basics",
+                "XCTest unit testing fundamentals",
+                "Apple Human Interface Guidelines (UI/UX basics)",
+                "Swift Package Manager basics"
+            ],
+            "resources": [
+                "The Swift Programming Language – Apple Documentation",
+                "SwiftUI Essentials – iOS 16 (Apple Books)",
+                "Combine: Asynchronous Programming with Swift – Ray Wenderlich",
+                "Git Pocket Guide – O'Reilly",
+                "Apple’s Human Interface Guidelines – online",
+                "XCTest Documentation – Apple Developer"
+            ],
+            "milestone": "Создать простое приложение \"Notes\" на SwiftUI с использованием Combine для управления состоянием, локальным хранением в UserDefaults и покрыть его базовыми unit‑тестами (XCTest)."
+        },
+        "Practice": {
+            "topics": [
+                "Core Data: model design, CRUD, migrations",
+                "Networking: URLSession, Alamofire, handling JSON",
+                "Advanced SwiftUI: animations, custom components, dark mode",
+                "Architecture: MVVM, dependency injection",
+                "Swift Package Manager: creating и подключение пакетов",
+                "CI/CD: GitHub Actions workflow for iOS, Fastlane автоматизация",
+                "Тестирование: UI‑тесты, Quick/Nimble, тестирование Combine",
+                "Firebase: Authentication, Firestore sync",
+                "Code review practices и pull‑request workflow"
+            ],
+            "resources": [
+                "Core Data by Tutorials – Ray Wenderlich",
+                "Alamofire 5 – The Definitive Guide – Packt Publishing",
+                "Fastlane Documentation – official site",
+                "GitHub Actions for iOS CI – GitHub Docs",
+                "Firebase iOS SDK Documentation – Google",
+                "Advanced SwiftUI – Stanford CS193p (YouTube)"
+            ],
+            "milestone": "Рефакторить приложение \"Notes\": добавить Core Data для постоянного хранения, реализовать синхронизацию с мок‑API через Alamofire, настроить CI‑pipeline (GitHub Actions + Fastlane) и покрыть проект UI‑тестами и тестами Quick/Nimble."
+        },
+        "Portfolio": {
+            "topics": [
+                "Полноценное SwiftUI приложение с комплексным UI/UX",
+                "Combine для сложных потоков данных и синхронизации",
+                "Core Data + Firebase для офлайн‑и онлайн‑синхронизации",
+                "Swift Package Manager для модульности",
+                "CI/CD: Fastlane, GitHub Actions, автоматический деплой в TestFlight",
+                "Продвинутое тестирование: unit, UI, интеграционные тесты",
+                "Agile процесс: планирование спринтов, бэклог, ретроспектива",
+                "Документация проекта, README, демо‑видео"
+            ],
+            "resources": [
+                "FinTrack Pro – пример проекта в GitHub (template repository)",
+                "Designing Data‑Intensive Apps – Martin Kleppmann (для архитектурных решений)",
+                "Apple’s App Store Connect Guide – official",
+                "TestFlight Beta Testing Guide – Apple"
+            ],
+            "milestone": "Завершить и опубликовать в GitHub проект \"FinTrack Pro\": полностью рабочее iOS‑приложение с функциями учёта расходов, синхронизацией через Firebase, CI/CD pipeline, набор тестов и подготовленный демо‑ролик для портфолио."
+        }
+    },
+    "gap_analysis": {
+        "quick_wins": [
+            "Swift language fundamentals",
+            "SwiftUI basic components and layout",
+            "Combine basics for reactive programming",
+            "Git version control workflow",
+            "XCTest unit testing basics",
+            "UI/UX basics from Apple HIG",
+            "Swift Package Manager for dependency management"
+        ],
+        "long_term": [
+            "Advanced Swift (generics, concurrency, protocol‑oriented programming)",
+            "Complex SwiftUI (animations, custom views, accessibility)",
+            "Deep dive into Combine (operators, error handling, back‑pressure)",
+            "Core Data persistence and migration strategies",
+            "Networking with URLSession & Alamofire",
+            "CI/CD pipelines (GitHub Actions, Fastlane, Bitrise)",
+            "Architecture patterns (MVVM, Clean Architecture)",
+            "Testing frameworks (Quick/Nimble, UI tests)",
+            "Firebase integration (Auth, Firestore, Cloud Messaging)",
+            "Performance profiling and optimization",
+            "ARKit basics (optional, nice‑to‑have)",
+            "Agile/Scrum practice in real projects"
+        ]
+    },
+    "portfolio_project": {
+        "name": "FinTrack Pro",
+        "description": "FinTrack Pro – персональный менеджер финансов на iOS, позволяющий пользователям вести учёт доходов и расходов, создавать категории, просматривать интерактивные графики и отчёты, а также синхронизировать данные между устройствами через Firebase. Приложение работает офлайн с использованием Core Data, а при наличии сети автоматически синхронизирует изменения. UI построен полностью на SwiftUI с поддержкой Dark Mode и локализации (RU/EN). Реактивные потоки данных реализованы через Combine, а зависимости управляются Swift Package Manager. Для обеспечения качества кода настроен CI/CD pipeline (GitHub Actions + Fastlane) с автоматическим билдом, тестированием (XCTest, Quick/Nimble) и деплоем в TestFlight. Проект ведётся по Agile‑методологии: планирование спринтов, ежедневные стендапы, ретроспективы, code review.",
+        "skills_demonstrated": [
+            "Swift (современный, concurrency, protocol‑oriented)",
+            "SwiftUI (комплексные UI, анимации, адаптивный дизайн)",
+            "Combine (реактивная архитектура, управление состоянием)",
+            "Core Data (локальное хранение, миграции)",
+            "Firebase (Auth, Firestore, Cloud Messaging)",
+            "Networking (Alamofire, URLSession)",
+            "Swift Package Manager (модульность, публикация пакетов)",
+            "CI/CD (GitHub Actions, Fastlane, TestFlight)",
+            "Тестирование (unit, UI, Quick/Nimble)",
+            "Git (branching, pull‑request workflow, code review)",
+            "Agile/Scrum (планирование, бэклог, ретроспектива)",
+            "UI/UX (Apple HIG, дизайн‑системы, доступность)",
+            "Командная работа и коммуникация"
+        ]
+    },
+    "quality_score": 78,
+    "is_consistent": false,
+    "warnings": [
+        "Learning path не покрывает все указанные в skill_map критически важные технологии: Objective‑C, C/C++, CocoaPods, Carthage, RxSwift, AWS Amplify.",
+        "В разделе инфраструктуры указаны AWS Amplify и Firebase, но в учебных материалах упомянут только Firebase.",
+        "Отсутствует явное указание единиц измерения в salary_table (рубли/мес, USD/мес) – создает неоднозначность.",
+        "Некоторые ресурсы могут быть вымышленными или недоступными: \"FinTrack Pro – пример проекта в GitHub (template repository)\" не имеет публичной ссылки, что затрудняет проверку.",
+        "Для уровня Lead в Remote_USD медианная зарплата (200 k USD) выглядит заниженной по сравнению с рыночными тенденциями 2026 года."
+    ],
+    "rationale_quality_score": "Отчет в целом структурирован и содержит правдоподобные данные о навыках, рынке и зарплатах. Однако обнаружены логические несоответствия между skill_map и learning_path, а также неоднозначности в представлении зарплатных вилок и потенциально вымышленные ресурсы. Эти дефекты снижают целостность отчета, поэтому оценка качества ограничена 78 из 100, а итоговый вердикт – несогласованный.",
+    "metadata": "2026-04-02T16:31:57.654759"
+}

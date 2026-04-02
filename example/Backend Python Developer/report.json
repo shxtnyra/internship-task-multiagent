@@ -1,0 +1,249 @@
+{
+    "skill_map": {
+        "languages": [
+            {
+                "name": "Python",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "SQL",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "JavaScript",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            }
+        ],
+        "frameworks": [
+            {
+                "name": "Django",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Flask",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "FastAPI",
+                "importance": "important",
+                "trend": "growing"
+            }
+        ],
+        "infrastructure": [
+            {
+                "name": "Docker",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "Kubernetes",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "CI/CD (GitLab CI, Jenkins)",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "AWS/GCP/Azure",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "PostgreSQL/MySQL",
+                "importance": "critical",
+                "trend": "stable"
+            }
+        ],
+        "soft_skills": [
+            {
+                "name": "Teamwork",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Problem-solving",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Communication",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Time management",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Agile methodologies (Scrum, Kanban)",
+                "importance": "important",
+                "trend": "stable"
+            }
+        ]
+    },
+    "salary_table": {
+        "Junior": {
+            "Moscow": {
+                "min": 100,
+                "median": 120,
+                "max": 150
+            },
+            "Regions": {
+                "min": 80,
+                "median": 100,
+                "max": 120
+            },
+            "Remote_USD": {
+                "min": 1500,
+                "median": 2000,
+                "max": 2500
+            }
+        },
+        "Middle": {
+            "Moscow": {
+                "min": 150,
+                "median": 200,
+                "max": 250
+            },
+            "Regions": {
+                "min": 120,
+                "median": 150,
+                "max": 200
+            },
+            "Remote_USD": {
+                "min": 2500,
+                "median": 3500,
+                "max": 4500
+            }
+        },
+        "Senior": {
+            "Moscow": {
+                "min": 250,
+                "median": 350,
+                "max": 450
+            },
+            "Regions": {
+                "min": 200,
+                "median": 250,
+                "max": 350
+            },
+            "Remote_USD": {
+                "min": 4500,
+                "median": 6000,
+                "max": 7500
+            }
+        },
+        "Lead": {
+            "Moscow": {
+                "min": 400,
+                "median": 550,
+                "max": 700
+            },
+            "Regions": {
+                "min": 300,
+                "median": 400,
+                "max": 500
+            },
+            "Remote_USD": {
+                "min": 7000,
+                "median": 9000,
+                "max": 11000
+            }
+        }
+    },
+    "market_trend": {
+        "status": "growing",
+        "reason": "Спрос на разработчиков с опытом работы с Django, Flask, FastAPI и современными инструментами инфраструктуры (Docker, Kubernetes) продолжает расти. Особенно востребованы специалисты, умеющие работать с облачными платформами (AWS, GCP, Azure)."
+    },
+    "top_employers": [
+        "Яндекс",
+        "СберТех",
+        "Тинькофф",
+        "VK Company",
+        "Ростелеком"
+    ],
+    "learning_path": {
+        "Foundation": {
+            "topics": [
+                "Основы Python",
+                "Базовые конструкции SQL",
+                "Введение в Django и Flask",
+                "Основы работы с PostgreSQL и MySQL",
+                "Основы Docker"
+            ],
+            "resources": [
+                "Книга 'Fluent Python' от Luciano Ramalho",
+                "Онлайн-курс 'Django для начинающих' на Stepik"
+            ],
+            "milestone": "Освоение базовых конструкций Python и SQL, создание простого веб-приложения на Django или Flask с использованием PostgreSQL или MySQL, понимание основ работы с Docker"
+        },
+        "Practice": {
+            "topics": [
+                "Продвинутое использование Django и Flask",
+                "Работа с FastAPI",
+                "Настройка CI/CD с использованием GitLab CI",
+                "Базовые операции с Docker и Kubernetes",
+                "Основы работы с AWS/GCP/Azure"
+            ],
+            "resources": [
+                "Документация FastAPI",
+                "Курс 'Kubernetes для разработчиков' на Udemy"
+            ],
+            "milestone": "Создание нескольких пет-проектов с использованием Django, Flask и FastAPI, настройка CI/CD для одного из проектов, освоение базовых операций с Docker и Kubernetes, знакомство с облачными платформами"
+        },
+        "Portfolio": {
+            "topics": [
+                "Оптимизация и масштабирование приложений",
+                "Использование Kubernetes для развёртывания приложений",
+                "Работа с облачными сервисами AWS/GCP/Azure",
+                "Создание документации и README для проекта"
+            ],
+            "resources": [
+                "Официальная документация Kubernetes",
+                "Курс по работе с AWS на Coursera"
+            ],
+            "milestone": "Подготовка полноценного проекта для портфолио с использованием всех изученных технологий, развёртывание проекта в облаке, создание подробной документации"
+        }
+    },
+    "gap_analysis": {
+        "quick_wins": [
+            "Освоение базовых конструкций Python",
+            "Изучение основ SQL",
+            "Знакомство с Django и Flask"
+        ],
+        "long_term": [
+            "Глубокое изучение FastAPI",
+            "Освоение Kubernetes и облачных платформ",
+            "Настройка и оптимизация CI/CD"
+        ]
+    },
+    "portfolio_project": {
+        "name": "Платформа для онлайн-обучения",
+        "description": "Разработка веб-приложения, которое позволит пользователям создавать и проходить онлайн-курсы. Платформа будет включать следующие функции: регистрация и аутентификация пользователей, создание и редактирование курсов, просмотр и прохождение уроков, отслеживание прогресса обучения, система оценок и отзывов. Для развёртывания приложения будет использоваться Kubernetes, а для хранения данных — PostgreSQL. CI/CD будет настроен с использованием GitLab CI. Приложение будет развёрнуто в облаке AWS/GCP/Azure.",
+        "skills_demonstrated": [
+            "Разработка веб-приложений на Python с использованием Django/Flask/FastAPI",
+            "Работа с базами данных PostgreSQL",
+            "Использование Docker и Kubernetes для развёртывания приложений",
+            "Настройка CI/CD с помощью GitLab CI",
+            "Работа с облачными платформами AWS/GCP/Azure",
+            "Проектирование и реализация пользовательских интерфейсов",
+            "Разработка системы аутентификации и авторизации"
+        ]
+    },
+    "quality_score": 85,
+    "is_consistent": true,
+    "warnings": [
+        "Зарплатные вилки кажутся заниженными для 2026 года, особенно для уровня Lead в Москве и на удалёнке.",
+        "В разделе learning_path не упомянуто изучение JavaScript, хотя он указан в skill_map как nice-to-have."
+    ],
+    "rationale_quality_score": "Отчет в целом логичен и непротиворечив. Навыки из skill_map в целом соответствуют плану обучения learning_path, за исключением отсутствия упоминания JavaScript. Топ-компании и рыночные тренды описаны реалистично, галлюцинаций не обнаружено. Однако зарплатные вилки кажутся заниженными для 2026 года, что снижает оценку. В остальном отчет можно считать достаточно качественным и пригодным для использования с учетом указанных замечаний.",
+    "metadata": "2026-04-02T16:10:52.207130"
+}

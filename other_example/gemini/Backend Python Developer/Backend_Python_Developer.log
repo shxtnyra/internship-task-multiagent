@@ -1,0 +1,16 @@
+2026-04-02 10:55:54,561 - MultiAgentSystem - INFO - --- Запуск генерации отчета для роли: Backend Python Developer ---
+2026-04-02 10:55:54,561 - MultiAgentSystem.MarketAnalyst - INFO - Запуск анализа для: Backend Python Developer
+2026-04-02 10:56:25,828 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 10:56:25,905 - MultiAgentSystem.MarketAnalyst - INFO - Skill_map успешно сформирован и проверен
+2026-04-02 10:56:25,906 - MultiAgentSystem.SalaryEstimator - INFO - Начало оценки зарплат и трендов
+2026-04-02 10:56:31,249 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-02 10:56:31,360 - openai._base_client - INFO - Retrying request to /chat/completions in 0.454399 seconds
+2026-04-02 10:56:55,420 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 10:56:55,422 - MultiAgentSystem.SalaryEstimator - INFO - Зарплатная таблица и тренды успешно получены и проверены
+2026-04-02 10:56:55,422 - MultiAgentSystem.CareerAdvisor - INFO - Формирование плана обучения
+2026-04-02 10:57:06,343 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 10:57:06,406 - MultiAgentSystem.CareerAdvisor - INFO - Карьерный план успешно создан и валидирован
+2026-04-02 10:57:06,407 - MultiAgentSystem.QualityVerifier - INFO - Запуск технического аудита отчета
+2026-04-02 10:57:15,617 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 10:57:15,676 - MultiAgentSystem.QualityVerifier - INFO - Аудит завершен. Score: 92/100. Warnings: 4
+2026-04-02 10:57:15,677 - MultiAgentSystem - INFO - Сохранение отчёта в ./example/Backend Python Developer

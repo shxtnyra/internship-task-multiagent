@@ -1,0 +1,249 @@
+{
+    "skill_map": {
+        "languages": [
+            {
+                "name": "Python",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "R",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "SQL",
+                "importance": "important",
+                "trend": "stable"
+            }
+        ],
+        "frameworks": [
+            {
+                "name": "TensorFlow",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "PyTorch",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "Scikit-learn",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "XGBoost",
+                "importance": "important",
+                "trend": "stable"
+            }
+        ],
+        "infrastructure": [
+            {
+                "name": "Docker",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "Kubernetes",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "AWS/GCP/Azure",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "CI/CD",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "Hadoop/Spark",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            }
+        ],
+        "soft_skills": [
+            {
+                "name": "Problem-solving",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "Communication",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Teamwork",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Project management",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            }
+        ]
+    },
+    "salary_table": {
+        "Junior": {
+            "Moscow": {
+                "min": 120,
+                "median": 150,
+                "max": 180
+            },
+            "Regions": {
+                "min": 90,
+                "median": 120,
+                "max": 150
+            },
+            "Remote_USD": {
+                "min": 1500,
+                "median": 2000,
+                "max": 2500
+            }
+        },
+        "Middle": {
+            "Moscow": {
+                "min": 180,
+                "median": 250,
+                "max": 320
+            },
+            "Regions": {
+                "min": 150,
+                "median": 200,
+                "max": 250
+            },
+            "Remote_USD": {
+                "min": 2500,
+                "median": 3500,
+                "max": 4500
+            }
+        },
+        "Senior": {
+            "Moscow": {
+                "min": 280,
+                "median": 380,
+                "max": 500
+            },
+            "Regions": {
+                "min": 220,
+                "median": 300,
+                "max": 400
+            },
+            "Remote_USD": {
+                "min": 4000,
+                "median": 5500,
+                "max": 7000
+            }
+        },
+        "Lead": {
+            "Moscow": {
+                "min": 400,
+                "median": 550,
+                "max": 750
+            },
+            "Regions": {
+                "min": 300,
+                "median": 450,
+                "max": 600
+            },
+            "Remote_USD": {
+                "min": 6000,
+                "median": 8000,
+                "max": 10000
+            }
+        }
+    },
+    "market_trend": {
+        "status": "growing",
+        "reason": "Спрос на специалистов с навыками в области машинного обучения и обработки данных продолжает расти, особенно в крупных компаниях и стартапах."
+    },
+    "top_employers": [
+        "Яндекс",
+        "Сбер",
+        "Тинькофф",
+        "VK",
+        "Альфа-Банк"
+    ],
+    "learning_path": {
+        "Foundation": {
+            "topics": [
+                "Основы Python и R",
+                "Базовые концепции машинного обучения",
+                "Основы SQL",
+                "Введение в TensorFlow и PyTorch",
+                "Основы работы с Docker"
+            ],
+            "resources": [
+                "Книга «Грокаем машинное обучение» (Уоррен Дэвис, Дипак Патель)",
+                "Курс «Machine Learning with Python» на Coursera"
+            ],
+            "milestone": "Освоение базовых концепций машинного обучения, умение писать простые скрипты на Python и R, понимание основ работы с SQL и Docker, знакомство с TensorFlow и PyTorch"
+        },
+        "Practice": {
+            "topics": [
+                "Применение Scikit-learn и XGBoost для решения задач машинного обучения",
+                "Работа с Kubernetes и CI/CD",
+                "Основы работы с облачными сервисами (AWS/GCP/Azure)",
+                "Создание простых моделей машинного обучения и их развёртывание"
+            ],
+            "resources": [
+                "Документация Kubernetes",
+                "Курс «AWS Certified Cloud Practitioner» на Udemy"
+            ],
+            "milestone": "Умение применять Scikit-learn и XGBoost для решения типовых задач, понимание принципов работы Kubernetes и CI/CD, базовые навыки работы с облачными сервисами, развёртывание простых моделей машинного обучения"
+        },
+        "Portfolio": {
+            "topics": [
+                "Разработка комплексного проекта с использованием машинного обучения",
+                "Оптимизация и масштабирование моделей",
+                "Использование Hadoop/Spark (опционально)",
+                "Подготовка проекта к презентации и публикации в портфолио"
+            ],
+            "resources": [
+                "Книга «Big Data. Принципы и практика работы с колоссальными объёмами информации» (Натан Марц, Бёрд Джеймс)",
+                "Документация Spark"
+            ],
+            "milestone": "Готовый проект с использованием машинного обучения, оптимизированная и масштабируемая модель, подготовленный отчёт и презентация проекта"
+        }
+    },
+    "gap_analysis": {
+        "quick_wins": [
+            "Улучшение навыков работы с Python и R",
+            "Изучение базовых концепций машинного обучения",
+            "Освоение основ работы с SQL и Docker"
+        ],
+        "long_term": [
+            "Глубокое изучение TensorFlow и PyTorch",
+            "Овладение навыками работы с Kubernetes и CI/CD",
+            "Изучение облачных сервисов (AWS/GCP/Azure)",
+            "Развитие навыков оптимизации и масштабирования моделей машинного обучения"
+        ]
+    },
+    "portfolio_project": {
+        "name": "Система прогнозирования оттока клиентов для финансового учреждения",
+        "description": "Разработка системы, которая анализирует данные о клиентах банка или другого финансового учреждения и прогнозирует вероятность их оттока. Система будет использовать модели машинного обучения для анализа исторических данных о поведении клиентов, их транзакциях, взаимодействии с банком и других факторов. Проект включает сбор и предобработку данных, выбор и обучение моделей (с использованием Scikit-learn, XGBoost, TensorFlow или PyTorch), оценку их качества, развёртывание модели с использованием Docker и Kubernetes, а также интеграцию с облачным хранилищем данных (AWS/GCP/Azure).",
+        "skills_demonstrated": [
+            "Работа с данными и их предобработка",
+            "Разработка и обучение моделей машинного обучения",
+            "Оценка качества моделей и выбор наилучшей",
+            "Развёртывание моделей с использованием Docker и Kubernetes",
+            "Работа с облачными сервисами",
+            "Решение прикладных задач с помощью машинного обучения"
+        ]
+    },
+    "quality_score": 85,
+    "is_consistent": true,
+    "warnings": [
+        "Зарплатные вилки кажутся завышенными для 2026 года, особенно для уровня Lead. Необходимо проверить актуальность данных.",
+        "В разделе learning_path не упомянуто углублённое изучение SQL, хотя в skill_map SQL отмечен как важный навык.",
+        "В разделе gap_analysis в качестве быстрого выигрыша предлагается изучение базовых концепций машинного обучения, хотя в learning_path они уже включены в этап Foundation."
+    ],
+    "rationale_quality_score": "Отчёт в целом логичен и непротиворечив: навыки из skill_map соответствуют плану обучения в learning_path, галлюцинаций не обнаружено, ключевые технологии и компании реальны. Однако есть несколько моментов, требующих уточнения: завышенные, на первый взгляд, зарплатные вилки, отсутствие упоминания углублённого изучения SQL в learning_path и частичное дублирование информации в gap_analysis. Эти факторы немного снижают общую оценку качества отчёта.",
+    "metadata": "2026-04-02T16:14:04.810891"
+}

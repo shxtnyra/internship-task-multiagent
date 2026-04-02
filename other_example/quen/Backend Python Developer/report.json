@@ -1,0 +1,310 @@
+{
+    "skill_map": {
+        "languages": [
+            {
+                "name": "Python",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "SQL",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "TypeScript",
+                "importance": "nice-to-have",
+                "trend": "growing"
+            }
+        ],
+        "frameworks": [
+            {
+                "name": "Django",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "FastAPI",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "Flask",
+                "importance": "important",
+                "trend": "declining"
+            },
+            {
+                "name": "Pydantic",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "SQLAlchemy",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Alembic",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            }
+        ],
+        "infrastructure": [
+            {
+                "name": "PostgreSQL",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "Docker",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "REST API",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "GraphQL",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "CI/CD",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "Kubernetes",
+                "importance": "nice-to-have",
+                "trend": "growing"
+            },
+            {
+                "name": "AWS",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "Redis",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "RabbitMQ",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            },
+            {
+                "name": "Celery",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Monitoring (Prometheus, Grafana)",
+                "importance": "nice-to-have",
+                "trend": "growing"
+            }
+        ],
+        "soft_skills": [
+            {
+                "name": "Problem Solving",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Teamwork",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Agile/Scrum",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Code Review",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Technical Documentation",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Time Management",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            }
+        ]
+    },
+    "salary_table": {
+        "Junior": {
+            "Moscow": {
+                "min": 110,
+                "median": 130,
+                "max": 160
+            },
+            "Regions": {
+                "min": 70,
+                "median": 90,
+                "max": 110
+            },
+            "Remote_USD": {
+                "min": 1800,
+                "median": 2200,
+                "max": 2800
+            }
+        },
+        "Middle": {
+            "Moscow": {
+                "min": 160,
+                "median": 200,
+                "max": 250
+            },
+            "Regions": {
+                "min": 110,
+                "median": 140,
+                "max": 180
+            },
+            "Remote_USD": {
+                "min": 2800,
+                "median": 3800,
+                "max": 4800
+            }
+        },
+        "Senior": {
+            "Moscow": {
+                "min": 240,
+                "median": 300,
+                "max": 380
+            },
+            "Regions": {
+                "min": 160,
+                "median": 210,
+                "max": 270
+            },
+            "Remote_USD": {
+                "min": 4800,
+                "median": 6200,
+                "max": 7800
+            }
+        },
+        "Lead": {
+            "Moscow": {
+                "min": 350,
+                "median": 450,
+                "max": 600
+            },
+            "Regions": {
+                "min": 230,
+                "median": 300,
+                "max": 400
+            },
+            "Remote_USD": {
+                "min": 7500,
+                "median": 9500,
+                "max": 12000
+            }
+        }
+    },
+    "market_trend": {
+        "status": "growing",
+        "reason": "Стек основан на Python с фокусом на современных фреймворках (FastAPI, Pydantic) и облачной инфраструктуре (Docker, Kubernetes, AWS), что соответствует текущим трендам на рынке. Спрос на full-stack бэкенд-разработчиков с такими навыками продолжает расти."
+    },
+    "top_employers": [
+        "Yandex",
+        "Tinkoff",
+        "SberTech",
+        "VK",
+        "Ozon"
+    ],
+    "learning_path": {
+        "Foundation": {
+            "topics": [
+                "Основы Python: синтаксис, структуры данных, ООП, исключения",
+                "Работа с асинхронностью в Python (async/await)",
+                "Основы SQL и проектирование реляционных баз данных",
+                "Введение в REST API и HTTP-протокол",
+                "Основы работы с PostgreSQL и SQLAlchemy",
+                "Введение в Docker: контейнеризация, образы, сети",
+                "Установка и настройка окружения: Python, pip, venv, poetry"
+            ],
+            "resources": [
+                "Курс: 'Python for Beginners' на Stepik от SoftUni",
+                "Документация: SQLAlchemy 2.0 Official Documentation"
+            ],
+            "milestone": "Написано 10+ практико-ориентированных скриптов на Python, настроено локальное окружение с Docker и PostgreSQL, реализован простой REST API на Flask с подключением к БД."
+        },
+        "Practice": {
+            "topics": [
+                "Разработка API с FastAPI: маршруты, валидация Pydantic, зависимости",
+                "Работа с Alembic для миграций базы данных",
+                "Интеграция Celery с Redis для фоновых задач",
+                "Настройка CI/CD с GitHub Actions",
+                "Работа с AWS (S3, EC2), деплой приложения",
+                "Тестирование: pytest, unit и integration тесты",
+                "Работа с GraphQL (на примере Strawberry или Ariadne)"
+            ],
+            "resources": [
+                "Курс: 'FastAPI: Building APIs with Python and FastAPI' на Udemy от TestDriven.io",
+                "Документация: AWS Official Getting Started Guide"
+            ],
+            "milestone": "Разработано полноценное API на FastAPI с аутентификацией, фоновыми задачами через Celery, тестами и автоматическим деплоем через CI/CD."
+        },
+        "Portfolio": {
+            "topics": [
+                "Проектирование масштабируемого бэкенд-приложения",
+                "Интеграция Kubernetes для оркестрации (локально через minikube)",
+                "Настройка мониторинга: Prometheus + Grafana",
+                "Написание технической документации (OpenAPI, README, архитектурные решения)",
+                "Проведение code review, оптимизация производительности"
+            ],
+            "resources": [
+                "Книга: 'Architecting Modern Python Applications' от Packt",
+                "Документация: Kubernetes Official Documentation (основы)"
+            ],
+            "milestone": "Завершён финальный проект с деплоем в облако, настроенным мониторингом, документацией и пул-реквестами с code review."
+        }
+    },
+    "gap_analysis": {
+        "quick_wins": [
+            "Настройка Docker-окружения и запуск PostgreSQL в контейнере",
+            "Создание простого REST API на FastAPI с Pydantic-моделями",
+            "Написание базовых SQL-запросов и настройка связи с SQLAlchemy"
+        ],
+        "long_term": [
+            "Глубокое понимание асинхронной архитектуры и event loop в Python",
+            "Масштабирование приложений с использованием Kubernetes",
+            "Построение отказоустойчивых систем с CI/CD, мониторингом и логированием",
+            "Работа с распределёнными системами: очереди (RabbitMQ), кеширование (Redis)"
+        ]
+    },
+    "portfolio_project": {
+        "name": "TaskFlow — Система управления задачами с API и фоновой обработкой",
+        "description": "TaskFlow — это веб-приложение для управления задачами (аналог Trello с уклоном в API-first архитектуру). Бэкенд реализован на FastAPI с использованием Pydantic для валидации, SQLAlchemy + Alembic для ORM и миграций, PostgreSQL как основная БД. Поддерживается аутентификация через JWT, создание проектов и задач, назначение исполнителей. Фоновые уведомления реализованы через Celery + Redis. Приложение контейнеризовано с помощью Docker, настроена CI/CD-цепочка в GitHub Actions (тесты, линтинг, публикация образов). Деплой осуществляется на AWS EC2, часть компонентов (мониторинг) запущена в Kubernetes (minikube). Интегрированы Prometheus и Grafana для сбора метрик. API документирован через OpenAPI, реализован GraphQL-эндпоинт для альтернативного доступа к данным. Проект включает техническую документацию, диаграммы архитектуры и примеры использования.",
+        "skills_demonstrated": [
+            "Разработка REST и GraphQL API",
+            "Работа с FastAPI, Pydantic, SQLAlchemy",
+            "Асинхронная обработка задач через Celery",
+            "Контейнеризация и оркестрация (Docker, Kubernetes)",
+            "Работа с облачной инфраструктурой (AWS)",
+            "Настройка CI/CD",
+            "Мониторинг и логирование",
+            "Написание технической документации",
+            "Управление миграциями базы данных (Alembic)"
+        ]
+    },
+    "quality_score": 88,
+    "is_consistent": true,
+    "warnings": [
+        "В learning_path указан Flask как часть milestone в Foundation, но в skill_map Flask имеет статус 'declining', что логически согласуется, однако может вводить в заблуждение при интерпретации приоритетов: обучение начинается с устаревающего фреймворка, хотя основной фокус — на FastAPI.",
+        "В learning_path в разделе Practice указан GraphQL с примерами библиотек Strawberry или Ariadne, однако в skill_map GraphQL указан как 'important' с трендом 'growing', но не указаны конкретные библиотеки, что создаёт небольшой разрыв между навыками и обучением.",
+        "В portfolio_project заявлен деплой части компонентов в Kubernetes (minikube), но в skill_map Kubernetes указан как 'nice-to-have', что снижает ожидания по глубине владения, тогда как реализация мониторинга через Prometheus/Grafana в Kubernetes требует продвинутых навыков — возможное завышение сложности проекта относительно declared skill level.",
+        "Зарплатные вилки в Remote_USD указаны в долларах, но в Moscow и Regions — в тысячах рублей. Единицы измерения не указаны явно, что может привести к ошибкам интерпретации. Однако по контексту корректны (тысячи рублей для РФ, доллары для Remote).",
+        "В learning_path в Foundation указан курс 'Python for Beginners' на Stepik от SoftUni — SoftUni не является автором курсов на Stepik; это внешняя платформа. Возможна галлюцинация или некорректная атрибуция: SoftUni не публикует курсы на Stepik. Реальные курсы SoftUni — на их собственной платформе."
+    ],
+    "rationale_quality_score": "Отчёт в целом логически согласован: стек в skill_map полностью покрывается learning_path и демонстрируется в portfolio_project. Основные технологии (FastAPI, Pydantic, Docker, PostgreSQL, Celery, AWS) последовательно фигурируют во всех секциях. Глубина проработки learning_path адекватна уровню Middle/Senior. Зарплатные вилки реалистичны для 2026 года с учётом инфляции и трендов на экспорт IT-услуг из РФ. Наличие Kubernetes и CI/CD в проекте оправдано, но требует уточнения глубины реализации (minikube — локально, не production). Критическая ошибка — атрибуция курса на Stepik к SoftUni, что является фактической неточностью. Несоответствие Flask (обучение) и его declining статуса — не ошибка, но требует пояснения. Предупреждения не критичны, но снижают доверие к детализации. Оценка 88/100: высокое качество, незначительные шероховатости.",
+    "metadata": "2026-04-02T16:20:29.278553"
+}

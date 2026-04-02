@@ -1,0 +1,14 @@
+2026-04-02 16:26:11,948 - MultiAgentSystem - INFO - --- Запуск генерации отчета для роли: iOS Developer (Swift) ---
+2026-04-02 16:26:11,948 - MultiAgentSystem.MarketAnalyst - INFO - Запуск анализа для: iOS Developer (Swift)
+2026-04-02 16:26:41,565 - httpx - INFO - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+2026-04-02 16:26:41,650 - MultiAgentSystem.MarketAnalyst - INFO - Skill_map успешно сформирован и проверен
+2026-04-02 16:26:41,651 - MultiAgentSystem.SalaryEstimator - INFO - Начало оценки зарплат и трендов
+2026-04-02 16:27:37,953 - httpx - INFO - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+2026-04-02 16:27:37,955 - MultiAgentSystem.SalaryEstimator - INFO - Зарплатная таблица и тренды успешно получены и проверены
+2026-04-02 16:27:37,955 - MultiAgentSystem.CareerAdvisor - INFO - Формирование плана обучения
+2026-04-02 16:28:17,240 - httpx - INFO - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+2026-04-02 16:28:17,244 - MultiAgentSystem.CareerAdvisor - INFO - Карьерный план успешно создан и валидирован
+2026-04-02 16:28:17,244 - MultiAgentSystem.QualityVerifier - INFO - Запуск технического аудита отчета
+2026-04-02 16:28:40,062 - httpx - INFO - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+2026-04-02 16:28:40,063 - MultiAgentSystem.QualityVerifier - INFO - Аудит завершен. Score: 92/100. Warnings: 4
+2026-04-02 16:28:40,063 - MultiAgentSystem - INFO - Сохранение отчёта в ./other_example/quen/iOS Developer (Swift)

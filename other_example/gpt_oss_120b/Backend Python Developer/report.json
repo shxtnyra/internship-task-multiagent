@@ -1,0 +1,336 @@
+{
+    "skill_map": {
+        "languages": [
+            {
+                "name": "Python",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "SQL",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "JavaScript",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            }
+        ],
+        "frameworks": [
+            {
+                "name": "Django",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "FastAPI",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "Flask",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "SQLAlchemy",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Celery",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Pytest",
+                "importance": "important",
+                "trend": "stable"
+            }
+        ],
+        "infrastructure": [
+            {
+                "name": "Docker",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Kubernetes",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "GitHub Actions",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "GitLab CI/CD",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            },
+            {
+                "name": "AWS (EC2, RDS, S3)",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "PostgreSQL",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "MySQL",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Redis",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "RabbitMQ",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Nginx",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "REST API design",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "GraphQL",
+                "importance": "nice-to-have",
+                "trend": "growing"
+            }
+        ],
+        "soft_skills": [
+            {
+                "name": "Teamwork",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Communication",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Problem solving",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Agile methodology",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Scrum",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Code review",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Mentoring / knowledge sharing",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            }
+        ]
+    },
+    "salary_table": {
+        "Junior": {
+            "Moscow": {
+                "min": 120,
+                "median": 150,
+                "max": 180
+            },
+            "Regions": {
+                "min": 70,
+                "median": 90,
+                "max": 120
+            },
+            "Remote_USD": {
+                "min": 30,
+                "median": 38,
+                "max": 45
+            }
+        },
+        "Middle": {
+            "Moscow": {
+                "min": 200,
+                "median": 250,
+                "max": 300
+            },
+            "Regions": {
+                "min": 130,
+                "median": 160,
+                "max": 200
+            },
+            "Remote_USD": {
+                "min": 55,
+                "median": 68,
+                "max": 80
+            }
+        },
+        "Senior": {
+            "Moscow": {
+                "min": 350,
+                "median": 420,
+                "max": 500
+            },
+            "Regions": {
+                "min": 250,
+                "median": 300,
+                "max": 350
+            },
+            "Remote_USD": {
+                "min": 90,
+                "median": 110,
+                "max": 130
+            }
+        },
+        "Lead": {
+            "Moscow": {
+                "min": 550,
+                "median": 650,
+                "max": 800
+            },
+            "Regions": {
+                "min": 400,
+                "median": 500,
+                "max": 600
+            },
+            "Remote_USD": {
+                "min": 130,
+                "median": 160,
+                "max": 200
+            }
+        }
+    },
+    "market_trend": {
+        "status": "growing",
+        "reason": "Высокий спрос на Python и облачные технологии, рост использования FastAPI, Kubernetes и AWS."
+    },
+    "top_employers": [
+        "Yandex",
+        "Sberbank",
+        "Tinkoff",
+        "Ozon",
+        "VK"
+    ],
+    "learning_path": {
+        "Foundation": {
+            "topics": [
+                "Python (advanced syntax, type hints, async basics)",
+                "SQL fundamentals and PostgreSQL basics",
+                "Django framework fundamentals",
+                "REST API design principles",
+                "Docker basics and containerization",
+                "Git version control basics"
+            ],
+            "resources": [
+                "Python Crash Course (2nd Edition) – Eric Matthes",
+                "Official Django documentation (https://docs.djangoproject.com/)",
+                "Docker Getting Started guide (https://docs.docker.com/get-started/)",
+                "SQL for Data Scientists – Renee M. P. Teate"
+            ],
+            "milestone": "Создано простое CRUD‑приложение на Django с PostgreSQL, упакованное в Docker‑контейнер и задеплоено локально; написана базовая документация API."
+        },
+        "Practice": {
+            "topics": [
+                "FastAPI и асинхронное программирование",
+                "SQLAlchemy ORM и миграции Alembic",
+                "Celery + Redis для фоновых задач",
+                "CI/CD с GitHub Actions",
+                "Тестирование с Pytest (unit и integration)",
+                "Базовый деплой в AWS EC2 (Docker Compose)"
+            ],
+            "resources": [
+                "FastAPI official tutorial (https://fastapi.tiangolo.com/tutorial/)",
+                "SQLAlchemy 2.0 documentation (https://docs.sqlalchemy.org/)",
+                "Test‑Driven Development with Python – Harry J.W. Percival",
+                "AWS Certified Cloud Practitioner Essentials (Coursera)"
+            ],
+            "milestone": "Разработан асинхронный микросервис на FastAPI с фоновой обработкой через Celery+Redis, покрыт тестами Pytest, CI‑pipeline в GitHub Actions, задеплоен на AWS EC2 через Docker Compose."
+        },
+        "Portfolio": {
+            "topics": [
+                "Kubernetes (deployment, services, configmaps, secrets)",
+                "AWS EKS и инфраструктура как код (Terraform)",
+                "Мониторинг и алертинг (Prometheus + Grafana)",
+                "GraphQL API (optional) и расширенный REST",
+                "Безопасность (JWT, OAuth2, секреты)",
+                "Agile процессы, code review, документация"
+            ],
+            "resources": [
+                "Kubernetes Up & Running – Kelsey Hightower, Brendan Burns, Joe Beda",
+                "Production‑Ready Microservices – Susan J. Fowler",
+                "Effective DevOps on AWS – Udemy"
+            ],
+            "milestone": "Полностью продеплоен проект в AWS EKS с CI/CD в GitHub Actions, настроен мониторинг, реализованы оба API (REST + GraphQL), подготовлена техническая документация и презентация."
+        }
+    },
+    "gap_analysis": {
+        "quick_wins": [
+            "Docker",
+            "FastAPI",
+            "PostgreSQL",
+            "REST API design",
+            "Pytest",
+            "GitHub Actions"
+        ],
+        "long_term": [
+            "Kubernetes",
+            "AWS (EC2, RDS, S3, EKS)",
+            "Celery",
+            "Redis",
+            "RabbitMQ",
+            "GraphQL",
+            "Advanced performance & scaling",
+            "Mentoring / knowledge sharing"
+        ]
+    },
+    "portfolio_project": {
+        "name": "SmartFin Analytics Platform",
+        "description": "Бэкенд‑платформа для аналитики личных финансов. Сервис принимает транзакции пользователей через REST и GraphQL API, сохраняет их в PostgreSQL, асинхронно обрабатывает с помощью Celery + Redis (категоризация, расчёт бюджетов), генерирует отчёты и визуализацию. Приложение полностью контейнеризовано, развёртывается в AWS EKS, использует CI/CD GitHub Actions, мониторинг Prometheus/Grafana, аутентификацию через JWT/OAuth2 и хранит секреты в Kubernetes Secrets. В проекте реализованы покрытие тестами (unit, integration), подробная Swagger‑документация и README для разработчиков.",
+        "skills_demonstrated": [
+            "Python (async, type hints)",
+            "FastAPI & Django (API development)",
+            "SQLAlchemy & PostgreSQL (ORM, migrations)",
+            "Redis & Celery (background tasks)",
+            "Docker & Docker Compose (containerization)",
+            "Kubernetes (deployment, scaling, secrets)",
+            "AWS (EKS, RDS, S3, EC2)",
+            "CI/CD (GitHub Actions)",
+            "Testing (Pytest, coverage)",
+            "REST & GraphQL API design",
+            "Monitoring (Prometheus, Grafana)",
+            "Security (JWT, OAuth2)",
+            "Agile teamwork, code review, documentation"
+        ]
+    },
+    "quality_score": 70,
+    "is_consistent": false,
+    "warnings": [
+        "Skill map lists JavaScript (nice‑to‑have) and MySQL, RabbitMQ as important, but learning_path sections do not cover these technologies at any stage.",
+        "Foundation learning resources do not match the stated advanced topics (Python Crash Course is a beginner book, while topics require async, type hints, etc.).",
+        "SQL for Data Scientists is not a PostgreSQL fundamentals resource; mismatch between topic and resource.",
+        "Remote salary figures are given in USD without unit clarification; values (e.g., Lead remote min 130 USD) are implausibly high if interpreted as monthly salaries, indicating a likely data error.",
+        "Quick‑wins list includes technologies already marked as critical/important in the skill map (Docker, FastAPI, PostgreSQL, REST API design, Pytest, GitHub Actions), reducing the usefulness of the classification.",
+        "Learning path jumps from AWS EC2 deployment in Practice directly to AWS EKS in Portfolio without an intermediate step or explicit training on EKS/Terraform, creating a gap in skill progression."
+    ],
+    "rationale_quality_score": "Оценка 70 баллов отражает наличие нескольких логических несоответствий и потенциальных ошибок в данных, которые снижают практическую ценность отчёта. Технологический стек в skill_map в целом реален, но обучение не покрывает все заявленные навыки (JavaScript, MySQL, RabbitMQ). Ресурсы в базовом этапе не соответствуют заявленным темам, что указывает на плохую согласованность. Таблица зарплат неоднозначна: удалённые ставки в USD выглядят завышенными при трактовке как месячные, что свидетельствует о возможной ошибке в единицах измерения. Классификация quick_wins дублирует критически важные навыки, что делает её малоинформативной. В целом отчёт содержит полезную информацию, но перечисленные проблемы требуют исправления, поэтому итоговая целостность оценена как несоответствующая.",
+    "metadata": "2026-04-02T16:30:06.879115"
+}

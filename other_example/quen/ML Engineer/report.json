@@ -1,0 +1,352 @@
+{
+    "skill_map": {
+        "languages": [
+            {
+                "name": "Python",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "SQL",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "R",
+                "importance": "nice-to-have",
+                "trend": "declining"
+            },
+            {
+                "name": "Scala",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            }
+        ],
+        "frameworks": [
+            {
+                "name": "TensorFlow",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "PyTorch",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "Scikit-learn",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Keras",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "XGBoost",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Hugging Face Transformers",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "Pandas",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "NumPy",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Matplotlib",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            },
+            {
+                "name": "Seaborn",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            }
+        ],
+        "infrastructure": [
+            {
+                "name": "Docker",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "Kubernetes",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "AWS",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "Google Cloud Platform (GCP)",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "Azure",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "MLflow",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "Apache Airflow",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "CI/CD",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "PostgreSQL",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "MongoDB",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            },
+            {
+                "name": "Redis",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            },
+            {
+                "name": "BigQuery",
+                "importance": "nice-to-have",
+                "trend": "growing"
+            },
+            {
+                "name": "Snowflake",
+                "importance": "nice-to-have",
+                "trend": "growing"
+            }
+        ],
+        "soft_skills": [
+            {
+                "name": "Problem Solving",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Teamwork",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Communication",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Agile",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Scrum",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Research Skills",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "Critical Thinking",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Time Management",
+                "importance": "important",
+                "trend": "stable"
+            }
+        ]
+    },
+    "salary_table": {
+        "Junior": {
+            "Moscow": {
+                "min": 110,
+                "median": 130,
+                "max": 160
+            },
+            "Regions": {
+                "min": 70,
+                "median": 90,
+                "max": 110
+            },
+            "Remote_USD": {
+                "min": 2200,
+                "median": 2800,
+                "max": 3500
+            }
+        },
+        "Middle": {
+            "Moscow": {
+                "min": 160,
+                "median": 200,
+                "max": 250
+            },
+            "Regions": {
+                "min": 110,
+                "median": 140,
+                "max": 180
+            },
+            "Remote_USD": {
+                "min": 3500,
+                "median": 4500,
+                "max": 5800
+            }
+        },
+        "Senior": {
+            "Moscow": {
+                "min": 250,
+                "median": 320,
+                "max": 420
+            },
+            "Regions": {
+                "min": 180,
+                "median": 240,
+                "max": 320
+            },
+            "Remote_USD": {
+                "min": 5800,
+                "median": 7500,
+                "max": 9500
+            }
+        },
+        "Lead": {
+            "Moscow": {
+                "min": 420,
+                "median": 520,
+                "max": 650
+            },
+            "Regions": {
+                "min": 320,
+                "median": 400,
+                "max": 500
+            },
+            "Remote_USD": {
+                "min": 9500,
+                "median": 12000,
+                "max": 15000
+            }
+        }
+    },
+    "market_trend": {
+        "status": "growing",
+        "reason": "Стек ориентирован на современные направления ML и MLOps с сильным акцентом на PyTorch, Hugging Face и облачные платформы, что соответствует текущим рыночным потребностям в 2026 году."
+    },
+    "top_employers": [
+        "Yandex",
+        "Sber AI",
+        "Tinkoff Tech",
+        "VK AI",
+        "Cloud.ru"
+    ],
+    "learning_path": {
+        "Foundation": {
+            "topics": [
+                "Основы Python для машинного обучения",
+                "Работа с данными: Pandas, NumPy",
+                "Основы SQL и работа с PostgreSQL",
+                "Введение в PyTorch и TensorFlow",
+                "Математические основы ML: линейная алгебра, статистика",
+                "Установка окружения: Docker, Jupyter, виртуальные среды"
+            ],
+            "resources": [
+                "Курс 'Deep Learning Specialization' от deeplearning.ai на Coursera (Andrew Ng)",
+                "Документация PyTorch — 'Getting Started with PyTorch'",
+                "Книга 'Python for Data Analysis' by Wes McKinney"
+            ],
+            "milestone": "Написаны базовые скрипты обработки данных и построена простая модель классификации на PyTorch"
+        },
+        "Practice": {
+            "topics": [
+                "Построение и обучение нейросетей в PyTorch и TensorFlow",
+                "Работа с Hugging Face Transformers для NLP",
+                "Использование Scikit-learn и XGBoost для классических ML задач",
+                "MLflow для отслеживания экспериментов",
+                "CI/CD для ML-проектов",
+                "Работа с облачными платформами: AWS и GCP (базовые сервисы)"
+            ],
+            "resources": [
+                "Курс 'Practical Deep Learning for Coders' от fast.ai",
+                "Документация Hugging Face — 'Transformers Tutorial'",
+                "Книга 'Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow' by Aurélien Géron"
+            ],
+            "milestone": "Реализовано 3 пет-проекта: классификация текста, регрессия на табличных данных, fine-tuning модели BERT"
+        },
+        "Portfolio": {
+            "topics": [
+                "Разработка full-stack ML-приложения",
+                "Деплой модели с помощью Docker и Kubernetes",
+                "Организация MLOps-пайплайна: Airflow + MLflow + CI/CD",
+                "Работа с BigQuery и Snowflake (чтение данных)",
+                "Документация проекта и презентация результатов"
+            ],
+            "resources": [
+                "Курс 'MLOps Zoomcamp' от DataTalks.Club",
+                "Документация AWS SageMaker и Google Cloud Vertex AI"
+            ],
+            "milestone": "Завершён и задеплоен финальный проект с полным ML-пайплайном и интерфейсом"
+        }
+    },
+    "gap_analysis": {
+        "quick_wins": [
+            "Изучение основ Docker и запуск контейнеризированной ML-модели",
+            "Освоение SQL на уровне написания сложных JOIN и агрегаций",
+            "Настройка MLflow для логирования экспериментов"
+        ],
+        "long_term": [
+            "Глубокое понимание архитектур трансформеров и fine-tuning LLM",
+            "Мастерство в MLOps: масштабирование, мониторинг, CI/CD",
+            "Работа с распределёнными системами: Kubernetes, Airflow в продакшене"
+        ]
+    },
+    "portfolio_project": {
+        "name": "ML-Powered News Classifier with MLOps Pipeline",
+        "description": "Веб-приложение, которое автоматически классифицирует новости с разных источников по темам (политика, технологии, спорт и др.) с использованием fine-tuned модели BERT на Hugging Face. Данные забираются через Airflow-пайплайн из RSS-лент, обрабатываются в GCP Cloud Functions, модель обучается и логируется через MLflow, версионируется с помощью DVC. Модель задеплоена в Docker-контейнере на Kubernetes-кластере (GKE), доступна через FastAPI. Интерфейс — на Streamlit. Реализован CI/CD через GitHub Actions: тесты, линтеры, деплой. Проект задокументирован: README, архитектурная схема, инструкции по запуску.",
+        "skills_demonstrated": [
+            "Работа с PyTorch и Hugging Face Transformers",
+            "Fine-tuning NLP-моделей",
+            "Использование MLOps-инструментов: MLflow, Airflow, DVC",
+            "Работа с облаком: GCP, Kubernetes, Docker",
+            "Построение CI/CD для ML-проектов",
+            "Работа с SQL и API",
+            "Навыки документирования и презентации проекта"
+        ]
+    },
+    "quality_score": 88,
+    "is_consistent": true,
+    "warnings": [
+        "В learning_path указано использование DVC в проекте, но DVC отсутствует в skill_map.infrastructure, что создаёт несоответствие между заявленными навыками и применением в проекте.",
+        "В learning_path упоминается FastAPI, но он не включён в skill_map.frameworks, несмотря на его важность в full-stack ML-приложениях.",
+        "Зарплатные вилки в USD для Remote позиций (особенно Junior: $2200–3500) завышены для 2026 года в контексте глобального рынка; реалистичный верхний порог для Junior — ~$3000, что делает max значение ($3500) сомнительным.",
+        "В learning_path Foundation указан Andrew Ng курс, который в 2026 году устарел как единственный источник; его актуальность снижена, хотя формально не является галлюцинацией.",
+        "В learning_path упоминается Cloud Functions, но в skill_map отсутствуют специфичные облачные сервисы (например, AWS Lambda, Cloud Functions), что ослабляет соответствие инфраструктурного стека и обучения."
+    ],
+    "rationale_quality_score": "Отчёт логически согласован: стек (Python, PyTorch, MLOps, облако) соответствует learning_path и portfolio_project. Технологии актуальны, тренды правильно оценены. Однако имеются пробелы: DVC и FastAPI используются в обучении и проекте, но отсутствуют в skill_map — это нарушение соответствия. Зарплаты в USD для Junior завышены: $3500 max — нереалистично для 2026 года на глобальном рынке (средние данные Levels.fyi, Glassdoor, Blind указывают на $2500–3000 как верхний предел для Junior ML). Упоминание Andrew Ng как ключевого ресурса — не галлюцинация, но слабая практика в 2026 году. Cloud Functions используется, но не отражён в инфраструктуре — частичное несоответствие. В остальном — сильный, реалистичный отчёт с чёткой прогрессией и релевантным проектом. Оценка снижена за пропущенные технологии и завышенные зарплаты.",
+    "metadata": "2026-04-02T16:24:56.812241"
+}

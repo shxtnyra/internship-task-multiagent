@@ -1,0 +1,14 @@
+2026-04-02 16:17:56,384 - MultiAgentSystem - INFO - --- Запуск генерации отчета для роли: Backend Python Developer ---
+2026-04-02 16:17:56,385 - MultiAgentSystem.MarketAnalyst - INFO - Запуск анализа для: Backend Python Developer
+2026-04-02 16:18:27,911 - httpx - INFO - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+2026-04-02 16:18:27,992 - MultiAgentSystem.MarketAnalyst - INFO - Skill_map успешно сформирован и проверен
+2026-04-02 16:18:27,993 - MultiAgentSystem.SalaryEstimator - INFO - Начало оценки зарплат и трендов
+2026-04-02 16:19:19,365 - httpx - INFO - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+2026-04-02 16:19:19,366 - MultiAgentSystem.SalaryEstimator - INFO - Зарплатная таблица и тренды успешно получены и проверены
+2026-04-02 16:19:19,367 - MultiAgentSystem.CareerAdvisor - INFO - Формирование плана обучения
+2026-04-02 16:20:02,102 - httpx - INFO - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+2026-04-02 16:20:02,103 - MultiAgentSystem.CareerAdvisor - INFO - Карьерный план успешно создан и валидирован
+2026-04-02 16:20:02,103 - MultiAgentSystem.QualityVerifier - INFO - Запуск технического аудита отчета
+2026-04-02 16:20:29,277 - httpx - INFO - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+2026-04-02 16:20:29,278 - MultiAgentSystem.QualityVerifier - INFO - Аудит завершен. Score: 88/100. Warnings: 5
+2026-04-02 16:20:29,278 - MultiAgentSystem - INFO - Сохранение отчёта в ./other_example/Backend Python Developer

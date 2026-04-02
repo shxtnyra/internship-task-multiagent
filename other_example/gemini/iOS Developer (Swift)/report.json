@@ -1,0 +1,275 @@
+{
+    "skill_map": {
+        "languages": [
+            {
+                "name": "Swift",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "Objective-C",
+                "importance": "nice-to-have",
+                "trend": "declining"
+            }
+        ],
+        "frameworks": [
+            {
+                "name": "SwiftUI",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "UIKit",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Combine",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Core Data",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "URLSession",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "XCTest",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Alamofire",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            }
+        ],
+        "infrastructure": [
+            {
+                "name": "Xcode",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Git",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Swift Package Manager (SPM)",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "Fastlane",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "App Store Connect",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "CI/CD (GitHub Actions/Bitrise)",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "CocoaPods",
+                "importance": "important",
+                "trend": "declining"
+            }
+        ],
+        "soft_skills": [
+            {
+                "name": "Code Review",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Agile/Scrum",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Problem Solving",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Technical English",
+                "importance": "important",
+                "trend": "stable"
+            }
+        ]
+    },
+    "salary_table": {
+        "Junior": {
+            "Moscow": {
+                "min": 110,
+                "median": 140,
+                "max": 180
+            },
+            "Regions": {
+                "min": 75,
+                "median": 100,
+                "max": 130
+            },
+            "Remote_USD": {
+                "min": 1200,
+                "median": 1700,
+                "max": 2300
+            }
+        },
+        "Middle": {
+            "Moscow": {
+                "min": 240,
+                "median": 310,
+                "max": 380
+            },
+            "Regions": {
+                "min": 170,
+                "median": 220,
+                "max": 280
+            },
+            "Remote_USD": {
+                "min": 3500,
+                "median": 4800,
+                "max": 6000
+            }
+        },
+        "Senior": {
+            "Moscow": {
+                "min": 420,
+                "median": 530,
+                "max": 650
+            },
+            "Regions": {
+                "min": 320,
+                "median": 400,
+                "max": 480
+            },
+            "Remote_USD": {
+                "min": 6500,
+                "median": 8500,
+                "max": 11000
+            }
+        },
+        "Lead": {
+            "Moscow": {
+                "min": 580,
+                "median": 720,
+                "max": 950
+            },
+            "Regions": {
+                "min": 450,
+                "median": 550,
+                "max": 700
+            },
+            "Remote_USD": {
+                "min": 9000,
+                "median": 12000,
+                "max": 15000
+            }
+        }
+    },
+    "market_trend": {
+        "status": "growing",
+        "reason": "Спрос на iOS-разработчиков остается стабильно высоким из-за миграции на SwiftUI и необходимости поддержки сложных финтех- и e-com приложений в условиях импортозамещения и обновления инфраструктуры."
+    },
+    "top_employers": [
+        "Яндекс",
+        "Т-Банк (Тинькофф)",
+        "Авито",
+        "Ozon",
+        "Сбер"
+    ],
+    "learning_path": {
+        "Foundation": {
+            "topics": [
+                "Swift Deep Dive: Generics, Protocols, Error Handling",
+                "Memory Management: ARC, Strong/Weak/Unowned references",
+                "UIKit Fundamentals: View Lifecycle, Auto Layout, UICollectionView",
+                "Networking: URLSession, JSON Decoding, Error handling in API calls",
+                "Git: Branching strategies, Merge vs Rebase, Conflict resolution"
+            ],
+            "resources": [
+                "Документация Apple: The Swift Programming Language (Swift.org)",
+                "Книга: 'Swift Programming: The Big Nerd Ranch Guide' by Jenny Hui"
+            ],
+            "milestone": "Разработано многоэкранное приложение на UIKit, выполняющее запросы к публичному API (например, GitHub API) с корректной обработкой ошибок и кэшированием данных."
+        },
+        "Practice": {
+            "topics": [
+                "SwiftUI: State Management (@State, @Binding, @StateObject)",
+                "Combine: Publishers, Subscribers, Operators, Sink/Assign",
+                "Persistence: Core Data stack, CRUD operations, Migrations",
+                "Dependency Management: Swift Package Manager (SPM) deep dive",
+                "Concurrency: Swift Concurrency (async/await, Actors)"
+            ],
+            "resources": [
+                "Курс: 'SwiftUI by Example' от Paul Hudson (Hacking with Swift)",
+                "Книга: 'Combine: Asynchronous Programming with Swift' от Kodeco (Ray Wenderlich)"
+            ],
+            "milestone": "Создано приложение-задачник или трекер привычек на SwiftUI с использованием Core Data для хранения данных и Combine для реактивного обновления интерфейса."
+        },
+        "Portfolio": {
+            "topics": [
+                "Architecture: MVVM vs Clean Architecture (VIPER/RIBs)",
+                "Testing: Unit Testing с XCTest, Mocking, UI Testing",
+                "CI/CD: Настройка GitHub Actions для iOS, Fastlane (Match, Gym, Deliver)",
+                "App Store Connect: Подготовка метаданных, TestFlight, App Review Guidelines",
+                "Code Review: Практика проведения и прохождения ревью"
+            ],
+            "resources": [
+                "Книга: 'Test-Driven iOS Development with Swift' by Dr. Dominik Hauser",
+                "Документация: Fastlane Docs (docs.fastlane.tools)"
+            ],
+            "milestone": "Финальный проект полностью покрыт Unit-тестами (минимум 70% coverage), настроен автоматический пайплайн сборки в GitHub Actions и проект опубликован в TestFlight."
+        }
+    },
+    "gap_analysis": {
+        "quick_wins": [
+            "Освоение Swift Package Manager для управления зависимостями",
+            "Изучение основ SwiftUI для создания простых UI-компонентов",
+            "Настройка базового CI/CD через GitHub Actions для автоматического запуска тестов",
+            "Внедрение URLSession вместо сторонних библиотек (Alamofire) для понимания нативного стека"
+        ],
+        "long_term": [
+            "Глубокое понимание Combine и реактивного программирования",
+            "Переход от UIKit к SwiftUI как к основной технологии разработки",
+            "Освоение автоматизации релизных циклов с помощью Fastlane",
+            "Изучение Objective-C для поддержки legacy-кода в крупных компаниях (Яндекс, Сбер)"
+        ]
+    },
+    "portfolio_project": {
+        "name": "FinTrack Pro: Модульный финансовый менеджер",
+        "description": "Полнофункциональное приложение для управления личными финансами. Основные возможности: поддержка мультивалютности с обновлением курсов через API, визуализация расходов с помощью SwiftUI Charts, защищенное хранилище данных в Core Data с шифрованием. Проект построен на модульной архитектуре с использованием SPM (отдельные модули для Network, UI, Core). Реализована поддержка темной темы и виджетов для рабочего стола. Весь код покрыт Unit-тестами, а процесс сборки и линтинга автоматизирован через Fastlane и GitHub Actions.",
+        "skills_demonstrated": [
+            "SwiftUI & Combine (Reactive UI)",
+            "Core Data (Local Persistence)",
+            "Modular Architecture (SPM)",
+            "Unit Testing (XCTest)",
+            "CI/CD (Fastlane, GitHub Actions)",
+            "REST API Integration (URLSession)"
+        ]
+    },
+    "quality_score": 78,
+    "is_consistent": false,
+    "warnings": [
+        "Критическое несоответствие: 'Swift Concurrency (async/await, Actors)' указано в плане обучения (learning_path), но полностью отсутствует в карте навыков (skill_map). Для 2026 года это фундаментальный пробел.",
+        "Логическая ошибка в gap_analysis: Изучение Objective-C помещено в 'long_term' цели, в то время как в skill_map технология помечена как 'declining'. Трата ресурсов на долгосрочное изучение угасающей технологии противоречит стратегии роста.",
+        "Технологическая галлюцинация в трендах: Combine помечен как 'stable'. К 2026 году Combine будет считаться 'declining' или 'legacy' в пользу Swift Concurrency (AsyncSequence/Streams), что не отражено в отчете.",
+        "Противоречие в оценке SwiftUI: В skill_map это 'critical' навык, а в gap_analysis 'изучение основ SwiftUI' подается как 'quick win'. Для уровня Middle/Senior, на которые ориентирован отчет, основы не могут быть 'быстрой победой', это база.",
+        "Несостыковка в зарплатной сетке: Между Junior Max (180к) и Middle Min (240к) в Москве существует разрыв в 60к. Отсутствие перекрытия диапазонов нехарактерно для реального рынка.",
+        "Дублирование и избыточность: В gap_analysis предлагается внедрение URLSession вместо Alamofire как 'quick win', однако в skill_map Alamofire все еще указан как 'stable' и 'nice-to-have', что дезориентирует при выборе стека."
+    ],
+    "rationale_quality_score": "Отчет демонстрирует хорошую структуру, но проваливает аудит на логической связности и актуальности трендов к 2026 году. Главная претензия — отсутствие Swift Concurrency в основном стеке при наличии его в обучении. Также выявлены стратегические ошибки в приоритизации (Objective-C как долгосрочная цель). Зарплатные ожидания реалистичны, но имеют странные разрывы между грейдами. Игнорирование вытеснения Combine нативным асинхронным подходом к 2026 году снижает техническую ценность прогноза.",
+    "metadata": "2026-04-02T11:01:13.135622"
+}

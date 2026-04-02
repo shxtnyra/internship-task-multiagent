@@ -1,0 +1,312 @@
+{
+    "skill_map": {
+        "languages": [
+            {
+                "name": "Swift",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Objective-C",
+                "importance": "important",
+                "trend": "declining"
+            },
+            {
+                "name": "C++",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            }
+        ],
+        "frameworks": [
+            {
+                "name": "UIKit",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "SwiftUI",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "Foundation",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Core Data",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Combine",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "Alamofire",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            },
+            {
+                "name": "Moya",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            }
+        ],
+        "infrastructure": [
+            {
+                "name": "Xcode",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "iOS SDK",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "CocoaPods",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Swift Package Manager",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "Fastlane",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Firebase",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "App Store Connect",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "CI/CD (GitHub Actions, Bitrise)",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "Core Animation",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            },
+            {
+                "name": "MapKit",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            },
+            {
+                "name": "ARKit",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            }
+        ],
+        "soft_skills": [
+            {
+                "name": "Problem Solving",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Teamwork",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Agile/Scrum",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Code Review",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Technical Communication",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Time Management",
+                "importance": "nice-to-have",
+                "trend": "stable"
+            }
+        ]
+    },
+    "salary_table": {
+        "Junior": {
+            "Moscow": {
+                "min": 110,
+                "median": 130,
+                "max": 160
+            },
+            "Regions": {
+                "min": 70,
+                "median": 90,
+                "max": 110
+            },
+            "Remote_USD": {
+                "min": 2200,
+                "median": 2800,
+                "max": 3500
+            }
+        },
+        "Middle": {
+            "Moscow": {
+                "min": 160,
+                "median": 200,
+                "max": 250
+            },
+            "Regions": {
+                "min": 110,
+                "median": 140,
+                "max": 180
+            },
+            "Remote_USD": {
+                "min": 3500,
+                "median": 4500,
+                "max": 5500
+            }
+        },
+        "Senior": {
+            "Moscow": {
+                "min": 240,
+                "median": 300,
+                "max": 380
+            },
+            "Regions": {
+                "min": 160,
+                "median": 210,
+                "max": 270
+            },
+            "Remote_USD": {
+                "min": 5500,
+                "median": 7000,
+                "max": 8500
+            }
+        },
+        "Lead": {
+            "Moscow": {
+                "min": 350,
+                "median": 450,
+                "max": 550
+            },
+            "Regions": {
+                "min": 230,
+                "median": 300,
+                "max": 400
+            },
+            "Remote_USD": {
+                "min": 8500,
+                "median": 10500,
+                "max": 13000
+            }
+        }
+    },
+    "market_trend": {
+        "status": "stable",
+        "reason": "Рынок iOS-разработки остаётся стабильным благодаря постоянному спросу на качественные приложения для экосистемы Apple, несмотря на постепенный уход от Objective-C в пользу Swift и SwiftUI."
+    },
+    "top_employers": [
+        "Yandex",
+        "Tinkoff",
+        "VK",
+        "SberDevices",
+        "Avito"
+    ],
+    "learning_path": {
+        "Foundation": {
+            "topics": [
+                "Основы языка Swift: синтаксис, типы данных, контроль потока, функции, замыкания",
+                "Работа с Xcode и iOS SDK",
+                "Основы UIKit: View Controller Lifecycle, Auto Layout, Navigation",
+                "Введение в SwiftUI: декларативный подход, базовые компоненты",
+                "Работа с менеджерами зависимостей: CocoaPods и Swift Package Manager",
+                "Основы архитектуры приложений: MVC, MVVM"
+            ],
+            "resources": [
+                "Apple Swift Documentation (официальная документация)",
+                "Курс «iOS & Swift — The Complete iOS App Development Bootcamp» от Angela Yu (Udemy)"
+            ],
+            "milestone": "Создано простое приложение-список задач (To-Do List) с использованием UIKit и сохранением данных через UserDefaults"
+        },
+        "Practice": {
+            "topics": [
+                "Глубокое изучение SwiftUI: State Management, Observables, Combine",
+                "Работа с сетью: URLSession, Alamofire, Moya",
+                "Управление данными: Core Data и Firebase Firestore",
+                "Реализация CI/CD с помощью GitHub Actions и Fastlane",
+                "Тестирование: XCTestCase, UI Testing, Mocking",
+                "Работа с Combine для реактивного программирования"
+            ],
+            "resources": [
+                "Книга «SwiftUI by Tutorials» от raywenderlich",
+                "Документация Apple по Combine и Core Data"
+            ],
+            "milestone": "Разработано приложение с подключением к REST API (например, погода или новости), с кэшированием данных и автоматическими тестами"
+        },
+        "Portfolio": {
+            "topics": [
+                "Проектирование архитектуры приложения (MVVM + Coordinator)",
+                "Интеграция Firebase: аутентификация, облачные данные, аналитика",
+                "Работа с App Store Connect: подготовка к публикации",
+                "Оптимизация производительности: память, анимации, Core Animation",
+                "Документирование кода и проведение code review"
+            ],
+            "resources": [
+                "Курс «Advanced iOS Development» на Stepik",
+                "Документация Firebase и App Store Connect"
+            ],
+            "milestone": "Завершён и задеплоен в TestFlight полноценный проект для портфолио с публикацией в App Store Connect"
+        }
+    },
+    "gap_analysis": {
+        "quick_wins": [
+            "Изучение Swift синтаксиса и основ Xcode",
+            "Освоение UIKit и Auto Layout",
+            "Настройка проекта с помощью Swift Package Manager"
+        ],
+        "long_term": [
+            "Глубокое понимание SwiftUI и Combine",
+            "Мастерство в архитектуре iOS-приложений (MVVM, Coordinator, Clean Swift)",
+            "Настройка и поддержка CI/CD пайплайнов",
+            "Работа с производительностью и оптимизацией под разные устройства"
+        ]
+    },
+    "portfolio_project": {
+        "name": "FitTrack — Приложение для отслеживания тренировок и питания",
+        "description": "Мобильное приложение для iOS, позволяющее пользователям планировать тренировки, отслеживать выполнение упражнений, вести дневник питания и просматривать прогресс через графики. Приложение использует SwiftUI для интерфейса, Combine для реактивного обновления данных, Firebase Authentication и Firestore для хранения пользовательских данных. Поддерживает оффлайн-режим через Core Data, синхронизацию при выходе в сеть, уведомления о тренировках и интеграцию с HealthKit для импорта данных о шагах и активности. Полностью покрыто unit- и UI-тестами, настроена автоматическая сборка через GitHub Actions и Fastlane, задеплоено в TestFlight. Интерфейс адаптирован под iPhone и iPad с использованием Auto Layout и динамических размеров.",
+        "skills_demonstrated": [
+            "Работа с Swift и SwiftUI",
+            "Использование UIKit при необходимости",
+            "Архитектура MVVM с Coordinator",
+            "Работа с Firebase и Core Data",
+            "Сетевые запросы и кэширование",
+            "Реактивное программирование с Combine",
+            "Тестирование и CI/CD",
+            "Подготовка к публикации в App Store",
+            "Работа с HealthKit и системными API"
+        ]
+    },
+    "quality_score": 92,
+    "is_consistent": true,
+    "warnings": [
+        "В learning_path в разделе Practice указано использование Combine для реактивного программирования, но в skill_map Combine указан как 'important', а не 'critical', несмотря на его ключевую роль в SwiftUI-ориентированной разработке — это небольшое недооценение важности.",
+        "В learning_path упоминается HealthKit в описании проекта, но в skill_map этот фреймворк отсутствует, хотя используется в портфолио-проекте — несоответствие между заявленными навыками и демонстрируемыми технологиями.",
+        "Зарплатные вилки в Remote_USD для Lead-уровня (до 13 000 USD) выглядят завышенными для 2026 года в контексте глобального рынка iOS-разработки; типичный верхний порог — 10 000–12 000 USD, особенно вне FAANG-компаний.",
+        "В learning_path в Foundation указано изучение MVC и MVVM, но в gap_analysis и portfolio_project упоминается Coordinator, который не включен в начальные темы — пропущен этап изучения паттерна навигации."
+    ],
+    "rationale_quality_score": "Отчёт логически согласован: стек (Swift, SwiftUI, UIKit, Combine, Firebase, Core Data) соответствует плану обучения и портфолио-проекту. Указаны актуальные инструменты (SPM, Fastlane, GitHub Actions), архитектурные подходы и практики CI/CD. Рыночная оценка стабильна и обоснована. Топ-работодатели корректны для российского рынка. Основные несоответствия — отсутствие HealthKit в skill_map при его использовании в проекте, недооценка важности Combine, небольшое завышение зарплат для Lead-уровня в USD и пропуск изучения Coordinator в начальных темах. Эти недочёты не критичны, но снижают идеальную согласованность. Оценка 92/100.",
+    "metadata": "2026-04-02T16:28:40.063862"
+}

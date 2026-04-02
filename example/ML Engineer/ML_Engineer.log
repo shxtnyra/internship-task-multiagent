@@ -1,0 +1,14 @@
+2026-04-02 16:13:49,824 - MultiAgentSystem - INFO - --- Запуск генерации отчета для роли: ML Engineer ---
+2026-04-02 16:13:49,824 - MultiAgentSystem.MarketAnalyst - INFO - Запуск анализа для: ML Engineer
+2026-04-02 16:13:53,751 - httpx - INFO - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+2026-04-02 16:13:53,844 - MultiAgentSystem.MarketAnalyst - INFO - Skill_map успешно сформирован и проверен
+2026-04-02 16:13:53,844 - MultiAgentSystem.SalaryEstimator - INFO - Начало оценки зарплат и трендов
+2026-04-02 16:13:57,153 - httpx - INFO - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+2026-04-02 16:13:57,154 - MultiAgentSystem.SalaryEstimator - INFO - Зарплатная таблица и тренды успешно получены и проверены
+2026-04-02 16:13:57,154 - MultiAgentSystem.CareerAdvisor - INFO - Формирование плана обучения
+2026-04-02 16:14:02,614 - httpx - INFO - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+2026-04-02 16:14:02,615 - MultiAgentSystem.CareerAdvisor - INFO - Карьерный план успешно создан и валидирован
+2026-04-02 16:14:02,615 - MultiAgentSystem.QualityVerifier - INFO - Запуск технического аудита отчета
+2026-04-02 16:14:04,809 - httpx - INFO - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/responses "HTTP/1.1 200 OK"
+2026-04-02 16:14:04,810 - MultiAgentSystem.QualityVerifier - INFO - Аудит завершен. Score: 85/100. Warnings: 3
+2026-04-02 16:14:04,810 - MultiAgentSystem - INFO - Сохранение отчёта в ./example/ML Engineer/

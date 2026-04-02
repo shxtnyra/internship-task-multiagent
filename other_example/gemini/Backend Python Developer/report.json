@@ -1,0 +1,278 @@
+{
+    "skill_map": {
+        "languages": [
+            {
+                "name": "Python",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "SQL",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Go",
+                "importance": "nice-to-have",
+                "trend": "growing"
+            }
+        ],
+        "frameworks": [
+            {
+                "name": "FastAPI",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "Django",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Asyncio",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Pytest",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "SQLAlchemy",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Pydantic",
+                "importance": "critical",
+                "trend": "growing"
+            },
+            {
+                "name": "Flask",
+                "importance": "important",
+                "trend": "declining"
+            }
+        ],
+        "infrastructure": [
+            {
+                "name": "Docker",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "PostgreSQL",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Redis",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Kubernetes",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "Kafka",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "CI/CD (GitLab CI, GitHub Actions)",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "RabbitMQ",
+                "importance": "important",
+                "trend": "stable"
+            }
+        ],
+        "soft_skills": [
+            {
+                "name": "System Design",
+                "importance": "important",
+                "trend": "growing"
+            },
+            {
+                "name": "Agile / Scrum",
+                "importance": "important",
+                "trend": "stable"
+            },
+            {
+                "name": "Code Review",
+                "importance": "critical",
+                "trend": "stable"
+            },
+            {
+                "name": "Technical English",
+                "importance": "important",
+                "trend": "stable"
+            }
+        ]
+    },
+    "salary_table": {
+        "Junior": {
+            "Moscow": {
+                "min": 110,
+                "median": 145,
+                "max": 180
+            },
+            "Regions": {
+                "min": 80,
+                "median": 105,
+                "max": 130
+            },
+            "Remote_USD": {
+                "min": 1200,
+                "median": 1800,
+                "max": 2500
+            }
+        },
+        "Middle": {
+            "Moscow": {
+                "min": 240,
+                "median": 320,
+                "max": 400
+            },
+            "Regions": {
+                "min": 170,
+                "median": 230,
+                "max": 300
+            },
+            "Remote_USD": {
+                "min": 3500,
+                "median": 4800,
+                "max": 6000
+            }
+        },
+        "Senior": {
+            "Moscow": {
+                "min": 420,
+                "median": 530,
+                "max": 680
+            },
+            "Regions": {
+                "min": 320,
+                "median": 420,
+                "max": 520
+            },
+            "Remote_USD": {
+                "min": 6500,
+                "median": 8000,
+                "max": 10500
+            }
+        },
+        "Lead": {
+            "Moscow": {
+                "min": 550,
+                "median": 680,
+                "max": 900
+            },
+            "Regions": {
+                "min": 450,
+                "median": 550,
+                "max": 700
+            },
+            "Remote_USD": {
+                "min": 8500,
+                "median": 11000,
+                "max": 15000
+            }
+        }
+    },
+    "market_trend": {
+        "status": "growing",
+        "reason": "Спрос на Python-разработчиков с глубоким знанием FastAPI, Asyncio и навыками работы с высоконагруженными системами (Kafka, K8s) продолжает расти на фоне миграции на микросервисы и развития AI-сервисов."
+    },
+    "top_employers": [
+        "Yandex",
+        "Ozon",
+        "T-Bank",
+        "Avito",
+        "Samokat"
+    ],
+    "learning_path": {
+        "Foundation": {
+            "topics": [
+                "Глубокое погружение в Asyncio: Event Loop, Coroutines, Tasks",
+                "FastAPI: Dependency Injection, Middleware, Background Tasks",
+                "SQLAlchemy 2.0: Async Engine, ORM vs Core, паттерн Repository",
+                "Pydantic v2: Advanced validation, Settings management"
+            ],
+            "resources": [
+                "Книга 'Fluent Python' (Luciano Ramalho) — главы про асинхронность",
+                "Официальная документация FastAPI (fastapi.tiangolo.com)",
+                "Книга 'Architecture Patterns with Python' (Harry Percival, Bob Gregory)"
+            ],
+            "milestone": "Разработано и задокументировано (Swagger) асинхронное API для управления пользователями и их правами с использованием PostgreSQL и миграций Alembic."
+        },
+        "Practice": {
+            "topics": [
+                "Брокеры сообщений: RabbitMQ и основы Apache Kafka",
+                "Кеширование и NoSQL: Redis для сессий и Rate Limiting",
+                "Docker & Docker Compose: многоэтапная сборка, сети и тома",
+                "CI/CD: Настройка пайплайнов в GitHub Actions или GitLab CI"
+            ],
+            "resources": [
+                "Книга 'Kafka: The Definitive Guide' (Gwen Shapira)",
+                "Курс 'Docker Mastery' от Brett Fisher (Udemy) или документация Docker",
+                "Книга 'Designing Data-Intensive Applications' (Martin Kleppmann)"
+            ],
+            "milestone": "Создана система из двух микросервисов, взаимодействующих через Kafka, с кешированием в Redis и автоматическим тестированием в CI."
+        },
+        "Portfolio": {
+            "topics": [
+                "Kubernetes: Pods, Deployments, Services, ConfigMaps",
+                "System Design: масштабирование, шардирование, репликация",
+                "Мониторинг и логирование: Prometheus, Grafana, ELK/Loki",
+                "Основы Go: синтаксис, горутины, каналы для микросервисов"
+            ],
+            "resources": [
+                "Книга 'Kubernetes Up & Running' (Brendan Burns)",
+                "Ресурс 'System Design Primer' (github.com/donnemartin/system-design-primer)",
+                "Документация 'Effective Go' (go.dev/doc/effective_go)"
+            ],
+            "milestone": "Финальный проект развернут в локальном K8s кластере (minikube/k3s) с настроенным мониторингом и дашбордом в Grafana."
+        }
+    },
+    "gap_analysis": {
+        "quick_wins": [
+            "Освоение асинхронного программирования с Asyncio и интеграция с FastAPI",
+            "Настройка валидации данных и сериализации через Pydantic v2",
+            "Написание unit и integration тестов с использованием Pytest и Testcontainers",
+            "Контейнеризация приложений с Docker и оптимизация Dockerfile"
+        ],
+        "long_term": [
+            "Проектирование распределенных систем (System Design) и микросервисной архитектуры",
+            "Глубокое изучение Apache Kafka для построения Event-Driven систем",
+            "Оркестрация контейнеров в Kubernetes (K8s) и настройка Helm-чартов",
+            "Изучение языка Go для написания высокопроизводительных микросервисов"
+        ]
+    },
+    "portfolio_project": {
+        "name": "SentinelStream: Высоконагруженная система мониторинга и уведомлений",
+        "description": "Распределенная система для сбора метрик с внешних API и мгновенного уведомления пользователей. Система состоит из: 1) Collector Service (FastAPI/Asyncio) — собирает данные и отправляет в Kafka; 2) Processor Service (Python/Go) — обрабатывает потоки данных, выявляет аномалии; 3) Alert Service — отправляет уведомления через WebSockets или Telegram. Включает в себя Redis для дедупликации событий, PostgreSQL для хранения истории и Prometheus для самодиагностики. Весь проект разворачивается через Helm-чарты в Kubernetes.",
+        "skills_demonstrated": [
+            "Разработка асинхронных микросервисов на FastAPI",
+            "Работа с очередями сообщений и стримингом данных (Apache Kafka)",
+            "Проектирование отказоустойчивых БД (PostgreSQL + Redis)",
+            "Контейнеризация и оркестрация (Docker, Kubernetes, Helm)",
+            "Настройка CI/CD и наблюдаемости (Prometheus, Grafana)",
+            "Применение паттернов System Design"
+        ]
+    },
+    "quality_score": 92,
+    "is_consistent": true,
+    "warnings": [
+        "Пропуск инструментов в skill_map: Helm и Testcontainers упоминаются в gap_analysis и portfolio_project, но отсутствуют в основном перечне навыков.",
+        "Дисбаланс веса навыка: Go указан как 'nice-to-have' в skill_map, однако в learning_path и portfolio_project он представлен как ключевой компонент архитектуры (Processor Service).",
+        "Разрыв в зарплатной сетке: Между Junior Max (180к) и Middle Min (240к) в Москве наблюдается разрыв в 60к, что создает логическую пустоту в грейдировании.",
+        "Отсутствие инструментов логирования в skill_map: ELK/Loki упоминаются в обучении, но не зафиксированы в инфраструктурном стеке."
+    ],
+    "rationale_quality_score": "Отчет демонстрирует высокую техническую грамотность и актуальность стека (SQLAlchemy 2.0, Pydantic v2, FastAPI). Галлюцинаций не обнаружено: все технологии, компании и паттерны существуют и соответствуют рынку Python-разработки. Зарплатные ожидания на 2026 год выглядят реалистично с учетом инфляционных ожиданий и дефицита кадров. Основное снижение балла вызвано мелкими несоответствиями в таксономии навыков: инструменты, на которых строится финальный проект (Helm, Prometheus, Go), либо занижены по значимости, либо вовсе не внесены в skill_map, что является ошибкой структурирования данных.",
+    "metadata": "2026-04-02T10:57:15.677650"
+}

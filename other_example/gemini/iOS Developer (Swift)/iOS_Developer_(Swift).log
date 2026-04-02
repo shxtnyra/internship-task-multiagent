@@ -1,0 +1,16 @@
+2026-04-02 10:59:31,465 - MultiAgentSystem - INFO - --- Запуск генерации отчета для роли: iOS Developer (Swift) ---
+2026-04-02 10:59:31,465 - MultiAgentSystem.MarketAnalyst - INFO - Запуск анализа для: iOS Developer (Swift)
+2026-04-02 10:59:54,118 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 10:59:54,175 - MultiAgentSystem.MarketAnalyst - INFO - Skill_map успешно сформирован и проверен
+2026-04-02 10:59:54,175 - MultiAgentSystem.SalaryEstimator - INFO - Начало оценки зарплат и трендов
+2026-04-02 11:00:17,755 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 11:00:17,813 - MultiAgentSystem.SalaryEstimator - INFO - Зарплатная таблица и тренды успешно получены и проверены
+2026-04-02 11:00:17,814 - MultiAgentSystem.CareerAdvisor - INFO - Формирование плана обучения
+2026-04-02 11:00:30,692 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 11:00:30,746 - MultiAgentSystem.CareerAdvisor - INFO - Карьерный план успешно создан и валидирован
+2026-04-02 11:00:30,747 - MultiAgentSystem.QualityVerifier - INFO - Запуск технического аудита отчета
+2026-04-02 11:00:52,379 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-02 11:00:52,485 - openai._base_client - INFO - Retrying request to /chat/completions in 0.384861 seconds
+2026-04-02 11:01:13,072 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 11:01:13,134 - MultiAgentSystem.QualityVerifier - INFO - Аудит завершен. Score: 78/100. Warnings: 6
+2026-04-02 11:01:13,135 - MultiAgentSystem - INFO - Сохранение отчёта в ./example/iOS Developer (Swift)
